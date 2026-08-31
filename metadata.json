@@ -1,0 +1,6 @@
+{
+  "name": "Smart College Fee Payment & Management Portal",
+  "description": "A comprehensive college fee payment and administration portal with student accounts, fee breakdown, Razorpay checkout, receipt generation, and real-time admin analytics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

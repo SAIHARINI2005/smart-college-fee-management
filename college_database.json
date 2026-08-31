@@ -1,0 +1,1675 @@
+{
+  "users": [
+    {
+      "_id": "user_admin_02",
+      "name": "Prof. Anjali Mehta (Accounts Officer)",
+      "email": "accounts@college.edu",
+      "passwordHash": "$2b$10$unkO9Qb1Ri1KkfeYEikIguKkyaruRDhPSOhaqUhQEI0rTDibJ5tBa",
+      "role": "ADMIN",
+      "phone": "+91 98765 43211",
+      "createdAt": "2026-08-31T14:08:35.217Z",
+      "updatedAt": "2026-08-31T17:07:30.685Z",
+      "__v": 0
+    },
+    {
+      "_id": "user_admin_01",
+      "name": "Dr. Ramesh Sharma (Dean Finance)",
+      "email": "admin@college.edu",
+      "passwordHash": "$2b$10$unkO9Qb1Ri1KkfeYEikIguKkyaruRDhPSOhaqUhQEI0rTDibJ5tBa",
+      "role": "ADMIN",
+      "phone": "+91 98765 43210",
+      "createdAt": "2026-08-31T14:08:35.217Z",
+      "updatedAt": "2026-08-31T17:07:30.685Z",
+      "__v": 0
+    },
+    {
+      "_id": "user_std_03",
+      "name": "Priya Sundaram",
+      "email": "priya.s@student.college.edu",
+      "passwordHash": "$2b$10$oyF0ubLYzmoI92QfEZTveudX/Ha2gSWCIE0eFEZ6lbrDjFVpyGu2i",
+      "role": "STUDENT",
+      "phone": "+91 91234 56782",
+      "createdAt": "2026-08-31T14:08:35.217Z",
+      "updatedAt": "2026-08-31T17:07:30.685Z",
+      "__v": 0
+    },
+    {
+      "_id": "user_std_01",
+      "name": "Sai Harini Medam",
+      "email": "saiharinimedam@gmail.com",
+      "passwordHash": "$2b$10$oyF0ubLYzmoI92QfEZTveudX/Ha2gSWCIE0eFEZ6lbrDjFVpyGu2i",
+      "role": "STUDENT",
+      "phone": "+91 91234 56780",
+      "createdAt": "2026-08-31T14:08:35.217Z",
+      "updatedAt": "2026-08-31T17:07:30.685Z",
+      "__v": 0
+    },
+    {
+      "_id": "user_std_04",
+      "name": "Vikram Aditya Singh",
+      "email": "vikram.singh@student.college.edu",
+      "passwordHash": "$2b$10$oyF0ubLYzmoI92QfEZTveudX/Ha2gSWCIE0eFEZ6lbrDjFVpyGu2i",
+      "role": "STUDENT",
+      "phone": "+91 91234 56783",
+      "createdAt": "2026-08-31T14:08:35.217Z",
+      "updatedAt": "2026-08-31T17:07:30.685Z",
+      "__v": 0
+    },
+    {
+      "_id": "user_std_05",
+      "name": "Sneha Reddy",
+      "email": "sneha.reddy@student.college.edu",
+      "passwordHash": "$2b$10$oyF0ubLYzmoI92QfEZTveudX/Ha2gSWCIE0eFEZ6lbrDjFVpyGu2i",
+      "role": "STUDENT",
+      "phone": "+91 91234 56784",
+      "createdAt": "2026-08-31T14:08:35.217Z",
+      "updatedAt": "2026-08-31T17:07:30.685Z",
+      "__v": 0
+    },
+    {
+      "_id": "user_std_803a595dd3670b37",
+      "name": "sindhu",
+      "email": "sindhu@gmail.com",
+      "passwordHash": "$2b$10$EeEn9nZvuWffPbWHAX/F0uovdEdbEsQI/cUXK1jL4kvceaE8nGQm.",
+      "role": "STUDENT",
+      "phone": "9832459045",
+      "createdAt": "2026-08-31T16:10:42.776Z",
+      "updatedAt": "2026-08-31T17:07:30.685Z",
+      "__v": 0
+    },
+    {
+      "_id": "user_std_02",
+      "name": "Aarav Patel",
+      "email": "aarav.patel@student.college.edu",
+      "passwordHash": "$2b$10$oyF0ubLYzmoI92QfEZTveudX/Ha2gSWCIE0eFEZ6lbrDjFVpyGu2i",
+      "role": "STUDENT",
+      "phone": "+91 91234 56781",
+      "createdAt": "2026-08-31T14:08:35.217Z",
+      "updatedAt": "2026-08-31T17:07:30.685Z",
+      "__v": 0
+    },
+    {
+      "_id": "user_std_de8da98b1d5e385c",
+      "__v": 0,
+      "createdAt": "2026-08-31T17:02:22.094Z",
+      "email": "edrf@gmail.com",
+      "name": "gfdsa",
+      "passwordHash": "$2b$10$POjR/wO/Jwr2qfG/bOPZ/u0hu4SUpszkxnnZ2x/9UktMaEdQrRFgS",
+      "phone": "7894561235",
+      "role": "STUDENT",
+      "updatedAt": "2026-08-31T17:07:30.685Z"
+    },
+    {
+      "_id": "user_std_3670996ab470214e",
+      "__v": 0,
+      "createdAt": "2026-08-31T17:07:30.684Z",
+      "email": "21cs042@student.college.edu",
+      "name": "Student (21CS042)",
+      "passwordHash": "$2b$10$RySqjTl9WU0N4OIESIFW9.p5BuWvS46aXOyIZ5QMeXduDNw.1mqv2",
+      "phone": "+91 98765 43210",
+      "role": "STUDENT",
+      "updatedAt": "2026-08-31T17:07:30.685Z"
+    }
+  ],
+  "admins": [
+    {
+      "_id": "adm_01",
+      "userId": "user_admin_01",
+      "name": "Dr. Ramesh Sharma",
+      "email": "admin@college.edu",
+      "department": "Finance & Administration",
+      "designation": "Finance Controller & Dean",
+      "permissions": [
+        "ALL",
+        "MANAGE_FEES",
+        "APPROVE_PAYMENTS",
+        "GENERATE_REPORTS",
+        "MANAGE_STUDENTS"
+      ],
+      "createdAt": "2026-08-31T14:08:35.217Z"
+    },
+    {
+      "_id": "adm_02",
+      "userId": "user_admin_02",
+      "name": "Prof. Anjali Mehta",
+      "email": "accounts@college.edu",
+      "department": "Accounts Section",
+      "designation": "Senior Accounts Officer",
+      "permissions": [
+        "VIEW_FEES",
+        "APPROVE_PAYMENTS",
+        "GENERATE_REPORTS"
+      ],
+      "createdAt": "2026-08-31T14:08:35.217Z"
+    }
+  ],
+  "students": [
+    {
+      "_id": "std_02",
+      "userId": "user_std_02",
+      "rollNumber": "21CS102",
+      "registrationNo": "REG-2021-CSE-0078",
+      "name": "Aarav Patel",
+      "email": "aarav.patel@student.college.edu",
+      "phone": "+91 91234 56781",
+      "course": "B.Tech - Computer Science & Engineering",
+      "department": "Computer Science and Engineering",
+      "semester": 8,
+      "academicYear": "2025-2026",
+      "admissionQuota": "MANAGEMENT",
+      "feeCategory": "REGULAR",
+      "guardianName": "Rajesh Patel",
+      "guardianPhone": "+91 98480 67890",
+      "address": "12-B, Diamond Park, Ahmedabad",
+      "status": "ACTIVE",
+      "createdAt": "2026-08-31T14:08:35.217Z",
+      "updatedAt": "2026-08-31T17:07:30.685Z",
+      "__v": 0
+    },
+    {
+      "_id": "std_05",
+      "userId": "user_std_05",
+      "rollNumber": "23AI401",
+      "registrationNo": "REG-2023-AIML-0015",
+      "name": "Sneha Reddy",
+      "email": "sneha.reddy@student.college.edu",
+      "phone": "+91 91234 56784",
+      "course": "B.Tech - AI & Machine Learning",
+      "department": "Artificial Intelligence",
+      "semester": 4,
+      "academicYear": "2025-2026",
+      "admissionQuota": "MERIT",
+      "feeCategory": "TFWS",
+      "guardianName": "B. Prabhakar Reddy",
+      "guardianPhone": "+91 99890 87654",
+      "address": "Flat 302, Green Meadows, Bengaluru",
+      "status": "ACTIVE",
+      "createdAt": "2026-08-31T14:08:35.217Z",
+      "updatedAt": "2026-08-31T17:07:30.685Z",
+      "__v": 0
+    },
+    {
+      "_id": "std_01",
+      "userId": "user_std_01",
+      "rollNumber": "21CS101",
+      "registrationNo": "REG-2021-CSE-0042",
+      "name": "Sai Harini Medam",
+      "email": "saiharinimedam@gmail.com",
+      "phone": "+91 91234 56780",
+      "course": "B.Tech - Computer Science & Engineering",
+      "department": "Computer Science and Engineering",
+      "semester": 8,
+      "academicYear": "2025-2026",
+      "admissionQuota": "MERIT",
+      "feeCategory": "REGULAR",
+      "guardianName": "M. Venkat Rao",
+      "guardianPhone": "+91 98480 12345",
+      "address": "Plot 45, Tech Enclave, Phase 2, Hyderabad",
+      "status": "ACTIVE",
+      "createdAt": "2026-08-31T14:08:35.217Z",
+      "updatedAt": "2026-08-31T17:07:30.685Z",
+      "__v": 0
+    },
+    {
+      "_id": "std_709f5827f0a888b4",
+      "userId": "user_std_803a595dd3670b37",
+      "rollNumber": "23091A05",
+      "registrationNo": "REG-2025-8993",
+      "name": "sindhu",
+      "email": "sindhu@gmail.com",
+      "phone": "9832459045",
+      "course": "B.Tech - Computer Science & Engineering",
+      "department": "Electronics & Communication",
+      "semester": 6,
+      "academicYear": "2025-2026",
+      "admissionQuota": "GOVERNMENT",
+      "feeCategory": "REGULAR",
+      "guardianName": "hgfd",
+      "guardianPhone": "6547891234",
+      "address": "Campus Hostel / Residence",
+      "status": "ACTIVE",
+      "createdAt": "2026-08-31T16:10:42.776Z",
+      "updatedAt": "2026-08-31T17:07:30.685Z",
+      "__v": 0
+    },
+    {
+      "_id": "std_04",
+      "userId": "user_std_04",
+      "rollNumber": "22EC305",
+      "registrationNo": "REG-2022-ECE-0091",
+      "name": "Vikram Aditya Singh",
+      "email": "vikram.singh@student.college.edu",
+      "phone": "+91 91234 56783",
+      "course": "B.Tech - Electronics & Communication",
+      "department": "Electronics & Communication",
+      "semester": 6,
+      "academicYear": "2025-2026",
+      "admissionQuota": "MERIT",
+      "feeCategory": "REGULAR",
+      "guardianName": "Devendra Singh",
+      "guardianPhone": "+91 98110 54321",
+      "address": "Sector 14, Urban Estate, Gurgaon",
+      "status": "ACTIVE",
+      "createdAt": "2026-08-31T14:08:35.217Z",
+      "updatedAt": "2026-08-31T17:07:30.685Z",
+      "__v": 0
+    },
+    {
+      "_id": "std_03",
+      "userId": "user_std_03",
+      "rollNumber": "22IT204",
+      "registrationNo": "REG-2022-IT-0112",
+      "name": "Priya Sundaram",
+      "email": "priya.s@student.college.edu",
+      "phone": "+91 91234 56782",
+      "course": "B.Tech - Information Technology",
+      "department": "Information Technology",
+      "semester": 6,
+      "academicYear": "2025-2026",
+      "admissionQuota": "GOVERNMENT",
+      "feeCategory": "SCHOLARSHIP",
+      "guardianName": "K. Sundaram",
+      "guardianPhone": "+91 94440 23456",
+      "address": "77, Anna Nagar West, Chennai",
+      "status": "ACTIVE",
+      "createdAt": "2026-08-31T14:08:35.217Z",
+      "updatedAt": "2026-08-31T17:07:30.685Z",
+      "__v": 0
+    },
+    {
+      "_id": "std_b84e436a1355d3a5",
+      "__v": 0,
+      "academicYear": "2025-2026",
+      "address": "Campus Hostel / Residence",
+      "admissionQuota": "MERIT",
+      "course": "B.Tech - Computer Science & Engineering",
+      "createdAt": "2026-08-31T17:02:22.094Z",
+      "department": "Computer Science and Engineering",
+      "email": "edrf@gmail.com",
+      "feeCategory": "REGULAR",
+      "guardianName": "poiuy",
+      "guardianPhone": "785478596",
+      "name": "gfdsa",
+      "phone": "7894561235",
+      "registrationNo": "REG-2025-5726",
+      "rollNumber": "25CS850",
+      "semester": 1,
+      "status": "ACTIVE",
+      "updatedAt": "2026-08-31T17:07:30.685Z",
+      "userId": "user_std_de8da98b1d5e385c"
+    },
+    {
+      "_id": "std_cd529b84d44e82ec",
+      "__v": 0,
+      "academicYear": "2025-2026",
+      "address": "University Campus Hostel Block B",
+      "admissionQuota": "MERIT",
+      "course": "B.Tech - Computer Science & Engineering",
+      "createdAt": "2026-08-31T17:07:30.684Z",
+      "department": "Computer Science and Engineering",
+      "email": "21cs042@student.college.edu",
+      "feeCategory": "REGULAR",
+      "guardianName": "Guardian",
+      "guardianPhone": "+91 98480 12345",
+      "name": "Student (21CS042)",
+      "phone": "+91 98765 43210",
+      "registrationNo": "REG-2025-21CS042",
+      "rollNumber": "21CS042",
+      "semester": 6,
+      "status": "ACTIVE",
+      "updatedAt": "2026-08-31T17:07:30.685Z",
+      "userId": "user_std_3670996ab470214e"
+    }
+  ],
+  "fees": [
+    {
+      "_id": "fee_fecb8ec93d4ca0fa",
+      "studentId": "std_709f5827f0a888b4",
+      "studentRollNumber": "23091A05",
+      "studentName": "sindhu",
+      "department": "Electronics & Communication",
+      "course": "B.Tech - Computer Science & Engineering",
+      "academicYear": "2025-2026",
+      "semester": 6,
+      "feeType": "SEMESTER_FEE",
+      "title": "Semester 6 Comprehensive Academic & Tuition Fee",
+      "totalAmount": 65000,
+      "paidAmount": 65000,
+      "pendingAmount": 0,
+      "dueDate": "2026-09-30",
+      "lateFeePerDay": 50,
+      "status": "PAID",
+      "breakdown": [
+        {
+          "id": "b_05c3a5d0ef886d7a",
+          "category": "Academic Tuition Fee",
+          "amount": 42250,
+          "description": "Instructional & Faculty Charges"
+        },
+        {
+          "id": "b_593719a072e62471",
+          "category": "Laboratory & Tech Infrastructure",
+          "amount": 9750,
+          "description": "Computing, Lab & Internet Services"
+        },
+        {
+          "id": "b_415177db57288e09",
+          "category": "University Examination Fee",
+          "amount": 3500,
+          "description": "Evaluation & Semester Grade Report"
+        },
+        {
+          "id": "b_d87fb3e47d0fa567",
+          "category": "Library & Online Journals",
+          "amount": 2500,
+          "description": "Library, Research and Digital Resources"
+        },
+        {
+          "id": "b_2508583d07b2815e",
+          "category": "Student Amenities & Sports",
+          "amount": 7000,
+          "description": "Campus Facilities & Welfare"
+        }
+      ],
+      "remarks": "Automated initial fee assignment upon registration",
+      "createdAt": "2026-08-31T16:10:42.776Z",
+      "updatedAt": "2026-08-31T17:07:30.685Z",
+      "__v": 0
+    },
+    {
+      "_id": "fee_05",
+      "studentId": "std_05",
+      "studentRollNumber": "23AI401",
+      "studentName": "Sneha Reddy",
+      "department": "Artificial Intelligence",
+      "course": "B.Tech - AI & Machine Learning",
+      "academicYear": "2025-2026",
+      "semester": 4,
+      "feeType": "SEMESTER_FEE",
+      "title": "IV Semester Tuition & GPU Lab Fee (TFWS)",
+      "totalAmount": 18500,
+      "paidAmount": 18500,
+      "pendingAmount": 0,
+      "dueDate": "2026-08-15",
+      "lateFeePerDay": 50,
+      "status": "PAID",
+      "breakdown": [
+        {
+          "id": "b_41",
+          "category": "Tuition Fee (100% Tuition Fee Waiver)",
+          "amount": 0,
+          "description": "AICTE Tuition Fee Waiver Scheme (TFWS)"
+        },
+        {
+          "id": "b_42",
+          "category": "GPU Supercomputing & AI Lab",
+          "amount": 12000,
+          "description": "NVIDIA DGX Station & Cloud Compute"
+        },
+        {
+          "id": "b_43",
+          "category": "Semester Examination Fee",
+          "amount": 3500,
+          "description": "Theory & Coding Exams"
+        },
+        {
+          "id": "b_44",
+          "category": "Campus Amenities & Health",
+          "amount": 3000,
+          "description": "Student Insurance & Wellness"
+        }
+      ],
+      "remarks": "Paid in full via Razorpay UPI.",
+      "createdAt": "2026-06-25T11:00:00.000Z",
+      "updatedAt": "2026-08-31T17:07:30.685Z",
+      "__v": 0
+    },
+    {
+      "_id": "fee_04",
+      "studentId": "std_04",
+      "studentRollNumber": "22EC305",
+      "studentName": "Vikram Aditya Singh",
+      "department": "Electronics & Communication",
+      "course": "B.Tech - Electronics & Communication",
+      "academicYear": "2025-2026",
+      "semester": 6,
+      "feeType": "HOSTEL_MESS",
+      "title": "Annual Hostel & Dining Fee (Block B - AC Room)",
+      "totalAmount": 95000,
+      "paidAmount": 50000,
+      "pendingAmount": 45000,
+      "dueDate": "2026-09-05",
+      "lateFeePerDay": 75,
+      "status": "PARTIAL",
+      "breakdown": [
+        {
+          "id": "b_31",
+          "category": "Hostel Accommodation (Double Occupancy AC)",
+          "amount": 55000,
+          "description": "Room rent, Electricity & High-speed WiFi"
+        },
+        {
+          "id": "b_32",
+          "category": "Dining / Mess Charges (Full Year)",
+          "amount": 35000,
+          "description": "4-meal daily hygienic catering"
+        },
+        {
+          "id": "b_33",
+          "category": "Laundry & Housekeeping Services",
+          "amount": 5000,
+          "description": "Bi-weekly automated laundry & room cleaning"
+        }
+      ],
+      "remarks": "Term 1 paid. Term 2 pending.",
+      "createdAt": "2026-06-20T10:00:00.000Z",
+      "updatedAt": "2026-08-31T17:07:30.685Z",
+      "__v": 0
+    },
+    {
+      "_id": "fee_03",
+      "studentId": "std_03",
+      "studentRollNumber": "22IT204",
+      "studentName": "Priya Sundaram",
+      "department": "Information Technology",
+      "course": "B.Tech - Information Technology",
+      "academicYear": "2025-2026",
+      "semester": 6,
+      "feeType": "SEMESTER_FEE",
+      "title": "VI Semester Academic & Lab Fee (Govt Scholarship)",
+      "totalAmount": 32000,
+      "paidAmount": 32000,
+      "pendingAmount": 0,
+      "dueDate": "2026-08-20",
+      "lateFeePerDay": 50,
+      "status": "PAID",
+      "breakdown": [
+        {
+          "id": "b_21",
+          "category": "Subsidized Tuition Fee",
+          "amount": 18000,
+          "description": "State Govt Merit Subsidy Applied"
+        },
+        {
+          "id": "b_22",
+          "category": "Advanced Network Lab Fee",
+          "amount": 8000,
+          "description": "Networking & Cyber Security Lab"
+        },
+        {
+          "id": "b_23",
+          "category": "Semester Exam Fee",
+          "amount": 3500,
+          "description": "Theory and Practical Evaluations"
+        },
+        {
+          "id": "b_24",
+          "category": "Digital Library & E-Learning",
+          "amount": 2500,
+          "description": "NPTEL & Digital Course Repository"
+        }
+      ],
+      "remarks": "Full fee paid on time. Receipt generated.",
+      "createdAt": "2026-06-15T09:00:00.000Z",
+      "updatedAt": "2026-08-31T17:07:30.685Z",
+      "__v": 0
+    },
+    {
+      "_id": "fee_01",
+      "studentId": "std_01",
+      "studentRollNumber": "21CS101",
+      "studentName": "Sai Harini Medam",
+      "department": "Computer Science and Engineering",
+      "course": "B.Tech - Computer Science & Engineering",
+      "academicYear": "2025-2026",
+      "semester": 8,
+      "feeType": "SEMESTER_FEE",
+      "title": "VIII Semester Comprehensive Tuition & Lab Fee",
+      "totalAmount": 65000,
+      "paidAmount": 65000,
+      "pendingAmount": 0,
+      "dueDate": "2026-09-15",
+      "lateFeePerDay": 50,
+      "status": "PAID",
+      "breakdown": [
+        {
+          "id": "b_1",
+          "category": "Tuition Fee",
+          "amount": 42000,
+          "description": "Core Academic & Faculty Instruction"
+        },
+        {
+          "id": "b_2",
+          "category": "Laboratory & Cloud Computing Fee",
+          "amount": 10000,
+          "description": "High-Performance Lab Access & AWS Sandbox"
+        },
+        {
+          "id": "b_3",
+          "category": "University Examination Fee",
+          "amount": 3500,
+          "description": "Final Semester Degree Evaluation & Grade Sheets"
+        },
+        {
+          "id": "b_4",
+          "category": "Library & Digital Journals Access",
+          "amount": 2500,
+          "description": "IEEE, ACM Digital Library & Campus WiFi"
+        },
+        {
+          "id": "b_5",
+          "category": "Training & Campus Placement Cell",
+          "amount": 5000,
+          "description": "Corporate Recruitment & Soft Skills Training"
+        },
+        {
+          "id": "b_6",
+          "category": "Student Welfare & Sports Fund",
+          "amount": 2000,
+          "description": "Campus Fest, Health Insurance & Gymkhana"
+        }
+      ],
+      "remarks": "First installment of Rs. 40,000 paid successfully. Remaining Rs. 25,000 due before Sept 15.",
+      "createdAt": "2026-07-01T10:00:00.000Z",
+      "updatedAt": "2026-08-31T17:07:30.685Z",
+      "__v": 0
+    },
+    {
+      "_id": "fee_02",
+      "studentId": "std_02",
+      "studentRollNumber": "21CS102",
+      "studentName": "Aarav Patel",
+      "department": "Computer Science and Engineering",
+      "course": "B.Tech - Computer Science & Engineering",
+      "academicYear": "2025-2026",
+      "semester": 8,
+      "feeType": "SEMESTER_FEE",
+      "title": "VIII Semester Comprehensive Academic Fee",
+      "totalAmount": 85000,
+      "paidAmount": 85000,
+      "pendingAmount": 0,
+      "dueDate": "2026-09-10",
+      "lateFeePerDay": 100,
+      "status": "PAID",
+      "breakdown": [
+        {
+          "id": "b_11",
+          "category": "Tuition Fee (Management)",
+          "amount": 62000,
+          "description": "Academic Instruction Fee"
+        },
+        {
+          "id": "b_12",
+          "category": "Laboratory & Project Development",
+          "amount": 12000,
+          "description": "Advanced Embedded & IoT Lab"
+        },
+        {
+          "id": "b_13",
+          "category": "University Exam Fee",
+          "amount": 3500,
+          "description": "Final Exam & Viva Voce"
+        },
+        {
+          "id": "b_14",
+          "category": "Campus Development Fund",
+          "amount": 7500,
+          "description": "Infrastructure & Tech Center"
+        }
+      ],
+      "remarks": "Payment pending for final year semester.",
+      "createdAt": "2026-07-01T10:00:00.000Z",
+      "updatedAt": "2026-08-31T17:07:30.686Z",
+      "__v": 0
+    },
+    {
+      "_id": "fee_4f159a68f2d4e588",
+      "__v": 0,
+      "academicYear": "2025-2026",
+      "breakdown": [
+        {
+          "id": "b_02fb39741e1639ab",
+          "category": "Academic Tuition Fee",
+          "amount": 42250,
+          "description": "Instructional & Faculty Charges"
+        },
+        {
+          "id": "b_52247ccc5b79dd69",
+          "category": "Laboratory & Tech Infrastructure",
+          "amount": 9750,
+          "description": "Computing, Lab & Internet Services"
+        },
+        {
+          "id": "b_5fe30dfa27fe5553",
+          "category": "University Examination Fee",
+          "amount": 3500,
+          "description": "Evaluation & Semester Grade Report"
+        },
+        {
+          "id": "b_66c38f86a6f652c1",
+          "category": "Library & Online Journals",
+          "amount": 2500,
+          "description": "Library, Research and Digital Resources"
+        },
+        {
+          "id": "b_ceefb0af2ca9f9ac",
+          "category": "Student Amenities & Sports",
+          "amount": 7000,
+          "description": "Campus Facilities & Welfare"
+        }
+      ],
+      "course": "B.Tech - Computer Science & Engineering",
+      "createdAt": "2026-08-31T17:02:22.094Z",
+      "department": "Computer Science and Engineering",
+      "dueDate": "2026-09-30",
+      "feeType": "SEMESTER_FEE",
+      "lateFeePerDay": 50,
+      "paidAmount": 65,
+      "pendingAmount": 64935,
+      "remarks": "Automated initial fee assignment upon registration",
+      "semester": 1,
+      "status": "PARTIAL",
+      "studentId": "std_b84e436a1355d3a5",
+      "studentName": "gfdsa",
+      "studentRollNumber": "25CS850",
+      "title": "Semester 1 Comprehensive Academic & Tuition Fee",
+      "totalAmount": 65000,
+      "updatedAt": "2026-08-31T17:07:30.686Z"
+    },
+    {
+      "_id": "fee_669552871a0deffe",
+      "__v": 0,
+      "academicYear": "2025-2026",
+      "breakdown": [
+        {
+          "id": "1",
+          "category": "Tuition Fee",
+          "amount": 45000,
+          "description": "Core Academic Tuition"
+        },
+        {
+          "id": "2",
+          "category": "Special Lab & Computing Fee",
+          "amount": 12000,
+          "description": "CSE High-Performance Lab Access"
+        },
+        {
+          "id": "3",
+          "category": "Semester Exam & Valuation Fee",
+          "amount": 3500,
+          "description": "University Examination Cell"
+        },
+        {
+          "id": "4",
+          "category": "Library & Digital Resources",
+          "amount": 4000,
+          "description": "IEEE / ACM digital library access"
+        },
+        {
+          "id": "5",
+          "category": "Student Welfare & Sports Fund",
+          "amount": 4000,
+          "description": "Campus activities & insurance"
+        }
+      ],
+      "course": "B.Tech - Computer Science & Engineering",
+      "createdAt": "2026-08-31T17:07:30.684Z",
+      "department": "Computer Science and Engineering",
+      "dueDate": "2026-09-30",
+      "feeType": "SEMESTER_FEE",
+      "lateFeePerDay": 50,
+      "paidAmount": 2500,
+      "pendingAmount": 66000,
+      "semester": 6,
+      "status": "PARTIAL",
+      "studentId": "std_cd529b84d44e82ec",
+      "studentName": "Student (21CS042)",
+      "studentRollNumber": "21CS042",
+      "title": "Semester VI Tuition & Academic Fees (2025-2026)",
+      "totalAmount": 68500,
+      "updatedAt": "2026-08-31T17:08:42.497Z"
+    }
+  ],
+  "payments": [
+    {
+      "_id": "pay_9f24c2394b35cce0",
+      "paymentId": "pay_qa_ceeewbg0",
+      "orderId": "order_TWSCjYpoePJq3Z",
+      "signature": "240956a4c687ac7ccbef8f31b1b7807dbeaeef531e48029bd8785977e2a5c57e",
+      "feeId": "fee_669552871a0deffe",
+      "studentId": "std_cd529b84d44e82ec",
+      "studentName": "Student (21CS042)",
+      "rollNumber": "21CS042",
+      "department": "Computer Science and Engineering",
+      "academicYear": "2025-2026",
+      "semester": 6,
+      "amount": 2500,
+      "feeType": "SEMESTER_FEE",
+      "paymentMethod": "UPI",
+      "status": "SUCCESS",
+      "receiptNumber": "RCPT-2026-000015",
+      "transactionDate": "2026-08-31T17:08:42.497Z",
+      "razorpayDetails": {
+        "razorpay_payment_id": "pay_qa_ceeewbg0",
+        "razorpay_order_id": "order_TWSCjYpoePJq3Z",
+        "razorpay_signature": "240956a4c687ac7ccbef8f31b1b7807dbeaeef531e48029bd8785977e2a5c57e"
+      },
+      "verifiedAt": "2026-08-31T17:08:42.497Z",
+      "notes": "Paid towards Semester VI Tuition & Academic Fees (2025-2026) via Razorpay Test Mode",
+      "createdAt": "2026-08-31T17:08:42.497Z"
+    },
+    {
+      "_id": "pay_01",
+      "paymentId": "pay_RZP_demo_984128471",
+      "orderId": "order_RZP_ord_881920",
+      "signature": "demo_signature_hmac_sha256_verified_1",
+      "feeId": "fee_01",
+      "studentId": "std_01",
+      "studentName": "Sai Harini Medam",
+      "rollNumber": "21CS101",
+      "department": "Computer Science and Engineering",
+      "academicYear": "2025-2026",
+      "semester": 8,
+      "amount": 40000,
+      "feeType": "SEMESTER_FEE",
+      "paymentMethod": "UPI",
+      "status": "SUCCESS",
+      "receiptNumber": "RCPT-2026-08819",
+      "transactionDate": "2026-07-15T14:30:00.000Z",
+      "razorpayDetails": {
+        "razorpay_payment_id": "pay_RZP_demo_984128471",
+        "razorpay_order_id": "order_RZP_ord_881920",
+        "vpa": "saiharini@okhdfcbank"
+      },
+      "verifiedAt": "2026-07-15T14:30:05.000Z",
+      "notes": "VIII Semester 1st Installment Fee Payment",
+      "createdAt": "2026-07-15T14:30:00.000Z",
+      "updatedAt": "2026-08-31T17:07:30.686Z",
+      "__v": 0
+    },
+    {
+      "_id": "pay_02",
+      "paymentId": "pay_RZP_demo_772183920",
+      "orderId": "order_RZP_ord_771902",
+      "signature": "demo_signature_hmac_sha256_verified_2",
+      "feeId": "fee_03",
+      "studentId": "std_03",
+      "studentName": "Priya Sundaram",
+      "rollNumber": "22IT204",
+      "department": "Information Technology",
+      "academicYear": "2025-2026",
+      "semester": 6,
+      "amount": 32000,
+      "feeType": "SEMESTER_FEE",
+      "paymentMethod": "NET_BANKING",
+      "status": "SUCCESS",
+      "receiptNumber": "RCPT-2026-07719",
+      "transactionDate": "2026-08-10T11:20:00.000Z",
+      "razorpayDetails": {
+        "razorpay_payment_id": "pay_RZP_demo_772183920",
+        "razorpay_order_id": "order_RZP_ord_771902",
+        "bank": "State Bank of India (SBIN)"
+      },
+      "verifiedAt": "2026-08-10T11:20:06.000Z",
+      "notes": "VI Semester Full Fee Payment (Govt Quota)",
+      "createdAt": "2026-08-10T11:20:00.000Z",
+      "updatedAt": "2026-08-31T17:07:30.686Z",
+      "__v": 0
+    },
+    {
+      "_id": "pay_f5a1926defcb0c0c",
+      "paymentId": "pay_TWPLvo7F2mjJIn",
+      "orderId": "order_TWPLiLcuuazpzE",
+      "signature": "c9b57e89642458a06dff0432f635cdaa3856be64ac33c2de5861654d7b1b964a",
+      "feeId": "fee_02",
+      "studentId": "std_02",
+      "studentName": "Aarav Patel",
+      "rollNumber": "21CS102",
+      "department": "Computer Science and Engineering",
+      "academicYear": "2025-2026",
+      "semester": 8,
+      "amount": 30,
+      "feeType": "SEMESTER_FEE",
+      "paymentMethod": "NET_BANKING",
+      "status": "SUCCESS",
+      "receiptNumber": "RCPT-2026-87849",
+      "transactionDate": "2026-08-31T14:21:37.034Z",
+      "razorpayDetails": {
+        "razorpay_payment_id": "pay_TWPLvo7F2mjJIn",
+        "razorpay_order_id": "order_TWPLiLcuuazpzE",
+        "razorpay_signature": "c9b57e89642458a06dff0432f635cdaa3856be64ac33c2de5861654d7b1b964a",
+        "bank": "BARB_R"
+      },
+      "verifiedAt": "2026-08-31T14:21:37.034Z",
+      "notes": "Paid towards VIII Semester Comprehensive Academic Fee via Razorpay Test Mode",
+      "createdAt": "2026-08-31T14:21:37.034Z",
+      "updatedAt": "2026-08-31T17:07:30.686Z",
+      "__v": 0
+    },
+    {
+      "_id": "pay_c2a68da0fb32ca39",
+      "paymentId": "pay_TWPfXgcPZ65r4V",
+      "orderId": "order_TWPfGrXHDmAvfu",
+      "signature": "08ff89c42e1417356e4aa7f01bdf5ea40e4807a2c86c3eb60a0af97e1b4c9f0a",
+      "feeId": "fee_02",
+      "studentId": "std_02",
+      "studentName": "Aarav Patel",
+      "rollNumber": "21CS102",
+      "department": "Computer Science and Engineering",
+      "academicYear": "2025-2026",
+      "semester": 8,
+      "amount": 84,
+      "feeType": "SEMESTER_FEE",
+      "paymentMethod": "NET_BANKING",
+      "status": "SUCCESS",
+      "receiptNumber": "RCPT-2026-90842",
+      "transactionDate": "2026-08-31T14:40:12.972Z",
+      "razorpayDetails": {
+        "razorpay_payment_id": "pay_TWPfXgcPZ65r4V",
+        "razorpay_order_id": "order_TWPfGrXHDmAvfu",
+        "razorpay_signature": "08ff89c42e1417356e4aa7f01bdf5ea40e4807a2c86c3eb60a0af97e1b4c9f0a",
+        "bank": "BARB_R"
+      },
+      "verifiedAt": "2026-08-31T14:40:12.972Z",
+      "notes": "Paid towards VIII Semester Comprehensive Academic Fee via Razorpay Test Mode",
+      "createdAt": "2026-08-31T14:40:12.972Z",
+      "updatedAt": "2026-08-31T17:07:30.686Z",
+      "__v": 0
+    },
+    {
+      "_id": "pay_03",
+      "paymentId": "pay_RZP_demo_661928374",
+      "orderId": "order_RZP_ord_661029",
+      "signature": "demo_signature_hmac_sha256_verified_3",
+      "feeId": "fee_04",
+      "studentId": "std_04",
+      "studentName": "Vikram Aditya Singh",
+      "rollNumber": "22EC305",
+      "department": "Electronics & Communication",
+      "academicYear": "2025-2026",
+      "semester": 6,
+      "amount": 50000,
+      "feeType": "HOSTEL_MESS",
+      "paymentMethod": "CREDIT_CARD",
+      "status": "SUCCESS",
+      "receiptNumber": "RCPT-2026-06610",
+      "transactionDate": "2026-07-20T16:45:00.000Z",
+      "razorpayDetails": {
+        "razorpay_payment_id": "pay_RZP_demo_661928374",
+        "razorpay_order_id": "order_RZP_ord_661029",
+        "bank": "HDFC Credit Card (Ending 4092)"
+      },
+      "verifiedAt": "2026-07-20T16:45:08.000Z",
+      "notes": "Hostel Term 1 Fee Advance Payment",
+      "createdAt": "2026-07-20T16:45:00.000Z",
+      "updatedAt": "2026-08-31T17:07:30.686Z",
+      "__v": 0
+    },
+    {
+      "_id": "pay_b1e4d62b317777ce",
+      "paymentId": "pay_TWPGeEaRyUpAeH",
+      "orderId": "order_TWPFEpO0GZXGGx",
+      "signature": "0d5e4b0cf7aff984dd6fd8f1c91667733e75fe45a2fd4ec693453775206000ba",
+      "feeId": "fee_01",
+      "studentId": "std_01",
+      "studentName": "Sai Harini Medam",
+      "rollNumber": "21CS101",
+      "department": "Computer Science and Engineering",
+      "academicYear": "2025-2026",
+      "semester": 8,
+      "amount": 25000,
+      "feeType": "SEMESTER_FEE",
+      "paymentMethod": "NET_BANKING",
+      "status": "SUCCESS",
+      "receiptNumber": "RCPT-2026-36213",
+      "transactionDate": "2026-08-31T14:16:36.911Z",
+      "razorpayDetails": {
+        "razorpay_payment_id": "pay_TWPGeEaRyUpAeH",
+        "razorpay_order_id": "order_TWPFEpO0GZXGGx",
+        "razorpay_signature": "0d5e4b0cf7aff984dd6fd8f1c91667733e75fe45a2fd4ec693453775206000ba",
+        "bank": "BARB_R"
+      },
+      "verifiedAt": "2026-08-31T14:16:36.911Z",
+      "notes": "Paid towards VIII Semester Comprehensive Tuition & Lab Fee via Razorpay Test Mode",
+      "createdAt": "2026-08-31T14:16:36.911Z",
+      "updatedAt": "2026-08-31T17:07:30.686Z",
+      "__v": 0
+    },
+    {
+      "_id": "pay_0e0318518eb3e0b8",
+      "paymentId": "pay_TWQzmxe8muMzXy",
+      "orderId": "order_TWQzg1CDLxc7Wp",
+      "signature": "ef98d48e527ba008227a0303fe6df029996b50add02370afb8d4dc56cde03909",
+      "feeId": "fee_02",
+      "studentId": "std_02",
+      "studentName": "Aarav Patel",
+      "rollNumber": "21CS102",
+      "department": "Computer Science and Engineering",
+      "academicYear": "2025-2026",
+      "semester": 8,
+      "amount": 84886,
+      "feeType": "SEMESTER_FEE",
+      "paymentMethod": "NET_BANKING",
+      "status": "SUCCESS",
+      "receiptNumber": "RCPT-2026-000011",
+      "transactionDate": "2026-08-31T15:58:04.600Z",
+      "razorpayDetails": {
+        "razorpay_payment_id": "pay_TWQzmxe8muMzXy",
+        "razorpay_order_id": "order_TWQzg1CDLxc7Wp",
+        "razorpay_signature": "ef98d48e527ba008227a0303fe6df029996b50add02370afb8d4dc56cde03909",
+        "bank": "BARB_R"
+      },
+      "verifiedAt": "2026-08-31T15:58:04.600Z",
+      "notes": "Paid towards VIII Semester Comprehensive Academic Fee via Razorpay Test Mode",
+      "createdAt": "2026-08-31T15:58:04.600Z",
+      "updatedAt": "2026-08-31T17:07:30.686Z",
+      "__v": 0
+    },
+    {
+      "_id": "pay_8e78994af2ce44f6",
+      "paymentId": "pay_TWREYAkWtTwsGn",
+      "orderId": "order_TWRDrKVb9utb2w",
+      "signature": "2d92d6334aa98f9c10e195a217bc8c85293189de3e5339178fd98c2f0e1a94f9",
+      "feeId": "fee_fecb8ec93d4ca0fa",
+      "studentId": "std_709f5827f0a888b4",
+      "studentName": "sindhu",
+      "rollNumber": "23091A05",
+      "department": "Electronics & Communication",
+      "academicYear": "2025-2026",
+      "semester": 6,
+      "amount": 65000,
+      "feeType": "SEMESTER_FEE",
+      "paymentMethod": "NET_BANKING",
+      "status": "SUCCESS",
+      "receiptNumber": "RCPT-2026-000014",
+      "transactionDate": "2026-08-31T16:12:06.052Z",
+      "razorpayDetails": {
+        "razorpay_payment_id": "pay_TWREYAkWtTwsGn",
+        "razorpay_order_id": "order_TWRDrKVb9utb2w",
+        "razorpay_signature": "2d92d6334aa98f9c10e195a217bc8c85293189de3e5339178fd98c2f0e1a94f9",
+        "bank": "BARB_R"
+      },
+      "verifiedAt": "2026-08-31T16:12:06.052Z",
+      "notes": "Paid towards Semester 6 Comprehensive Academic & Tuition Fee via Razorpay Test Mode",
+      "createdAt": "2026-08-31T16:12:06.052Z",
+      "updatedAt": "2026-08-31T17:07:30.686Z",
+      "__v": 0
+    },
+    {
+      "_id": "pay_cancel_4a88ddb06670ac3f",
+      "paymentId": "CANCELLED_1788187335935",
+      "orderId": "order_TWPhJFFDXocaU7",
+      "feeId": "fee_02",
+      "studentId": "std_02",
+      "studentName": "Aarav Patel",
+      "rollNumber": "21CS102",
+      "department": "N/A",
+      "academicYear": "2025-2026",
+      "semester": 1,
+      "amount": 0,
+      "feeType": "SEMESTER_FEE",
+      "paymentMethod": "UPI",
+      "status": "CANCELLED",
+      "receiptNumber": "CANCEL-1788187335935",
+      "transactionDate": "2026-08-31T14:42:15.935Z",
+      "failureReason": "Student closed Razorpay checkout popup",
+      "createdAt": "2026-08-31T14:42:15.935Z",
+      "updatedAt": "2026-08-31T17:07:30.686Z",
+      "__v": 0
+    },
+    {
+      "_id": "pay_04",
+      "paymentId": "pay_RZP_demo_551029384",
+      "orderId": "order_RZP_ord_551982",
+      "signature": "demo_signature_hmac_sha256_verified_4",
+      "feeId": "fee_05",
+      "studentId": "std_05",
+      "studentName": "Sneha Reddy",
+      "rollNumber": "23AI401",
+      "department": "Artificial Intelligence",
+      "academicYear": "2025-2026",
+      "semester": 4,
+      "amount": 18500,
+      "feeType": "SEMESTER_FEE",
+      "paymentMethod": "UPI",
+      "status": "SUCCESS",
+      "receiptNumber": "RCPT-2026-05519",
+      "transactionDate": "2026-08-05T10:15:00.000Z",
+      "razorpayDetails": {
+        "razorpay_payment_id": "pay_RZP_demo_551029384",
+        "razorpay_order_id": "order_RZP_ord_551982",
+        "vpa": "snehareddy@icici"
+      },
+      "verifiedAt": "2026-08-05T10:15:04.000Z",
+      "notes": "Semester 4 Lab & Exam Fee Settlement",
+      "createdAt": "2026-08-05T10:15:00.000Z",
+      "updatedAt": "2026-08-31T17:07:30.686Z",
+      "__v": 0
+    },
+    {
+      "_id": "pay_05",
+      "paymentId": "pay_RZP_failed_441029837",
+      "orderId": "order_RZP_ord_441028",
+      "feeId": "fee_02",
+      "studentId": "std_02",
+      "studentName": "Aarav Patel",
+      "rollNumber": "21CS102",
+      "department": "Computer Science and Engineering",
+      "academicYear": "2025-2026",
+      "semester": 8,
+      "amount": 85000,
+      "feeType": "SEMESTER_FEE",
+      "paymentMethod": "NET_BANKING",
+      "status": "FAILED",
+      "receiptNumber": "RCPT-FAIL-44102",
+      "transactionDate": "2026-08-12T09:14:00.000Z",
+      "failureReason": "Transaction declined by issuer bank (Insufficient funds/Timeout)",
+      "notes": "Customer attempted netbanking payment which timed out at gateway",
+      "createdAt": "2026-08-12T09:14:00.000Z",
+      "updatedAt": "2026-08-31T17:07:30.686Z",
+      "__v": 0
+    },
+    {
+      "_id": "pay_31d77caac2f0071a",
+      "__v": 0,
+      "academicYear": "2025-2026",
+      "amount": 65,
+      "createdAt": "2026-08-31T17:03:33.812Z",
+      "department": "Computer Science and Engineering",
+      "feeId": "fee_4f159a68f2d4e588",
+      "feeType": "SEMESTER_FEE",
+      "notes": "Paid towards Semester 1 Comprehensive Academic & Tuition Fee via Razorpay Test Mode",
+      "orderId": "order_TWS6UdodpGeSZe",
+      "paymentId": "pay_TWS6vOmKsRkFJi",
+      "paymentMethod": "NET_BANKING",
+      "razorpayDetails": {
+        "razorpay_payment_id": "pay_TWS6vOmKsRkFJi",
+        "razorpay_order_id": "order_TWS6UdodpGeSZe",
+        "razorpay_signature": "7e076055df5e808c9f72837a5dce875bcbc94b366b43ba6b60a8539669d6a7f7",
+        "bank": "BARB_R"
+      },
+      "receiptNumber": "RCPT-2026-000013",
+      "rollNumber": "25CS850",
+      "semester": 1,
+      "signature": "7e076055df5e808c9f72837a5dce875bcbc94b366b43ba6b60a8539669d6a7f7",
+      "status": "SUCCESS",
+      "studentId": "std_b84e436a1355d3a5",
+      "studentName": "gfdsa",
+      "transactionDate": "2026-08-31T17:03:33.798Z",
+      "updatedAt": "2026-08-31T17:07:30.686Z",
+      "verifiedAt": "2026-08-31T17:03:33.798Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "_id": "log_7896f5c59c711039",
+      "action": "PAYMENT_VERIFIED_SUCCESS",
+      "performedBy": {
+        "userId": "user_std_3670996ab470214e",
+        "name": "Student (21CS042)",
+        "email": "21cs042@student.college.edu",
+        "role": "STUDENT"
+      },
+      "targetEntity": "PaymentRecord",
+      "targetId": "pay_9f24c2394b35cce0",
+      "details": "Razorpay Test Mode payment of ₹2,500 verified for Student (21CS042) (21CS042). Receipt #RCPT-2026-000015 generated.",
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-08-31T17:08:42.517Z"
+    },
+    {
+      "_id": "log_a5e43016f1a3107f",
+      "action": "USER_LOGIN",
+      "performedBy": {
+        "userId": "user_std_3670996ab470214e",
+        "name": "Student (21CS042)",
+        "email": "21cs042@student.college.edu",
+        "role": "STUDENT"
+      },
+      "targetEntity": "User",
+      "targetId": "user_std_3670996ab470214e",
+      "details": "STUDENT login successful for Student (21CS042)",
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-08-31T17:08:41.367Z"
+    },
+    {
+      "_id": "log_c7caaf29b9e5dfa2",
+      "action": "USER_LOGIN",
+      "performedBy": {
+        "userId": "user_admin_01",
+        "name": "Dr. Ramesh Sharma (Dean Finance)",
+        "email": "admin@college.edu",
+        "role": "ADMIN"
+      },
+      "targetEntity": "User",
+      "targetId": "user_admin_01",
+      "details": "ADMIN login successful for Dr. Ramesh Sharma (Dean Finance)",
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-08-31T17:08:41.239Z"
+    },
+    {
+      "_id": "log_9af4903643d1d2c6",
+      "action": "USER_LOGIN",
+      "performedBy": {
+        "userId": "user_std_3670996ab470214e",
+        "name": "Student (21CS042)",
+        "email": "21cs042@student.college.edu",
+        "role": "STUDENT"
+      },
+      "targetEntity": "User",
+      "targetId": "user_std_3670996ab470214e",
+      "details": "STUDENT login successful for Student (21CS042)",
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-08-31T17:07:53.062Z"
+    },
+    {
+      "_id": "log_2af7e259e4a79411",
+      "action": "USER_LOGIN",
+      "performedBy": {
+        "userId": "user_admin_01",
+        "name": "Dr. Ramesh Sharma (Dean Finance)",
+        "email": "admin@college.edu",
+        "role": "ADMIN"
+      },
+      "targetEntity": "User",
+      "targetId": "user_admin_01",
+      "details": "ADMIN login successful for Dr. Ramesh Sharma (Dean Finance)",
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-08-31T17:07:52.916Z"
+    },
+    {
+      "_id": "log_8e9241707eb2c5e5",
+      "action": "USER_LOGIN",
+      "performedBy": {
+        "userId": "user_std_3670996ab470214e",
+        "name": "Student (21CS042)",
+        "email": "21cs042@student.college.edu",
+        "role": "STUDENT"
+      },
+      "targetEntity": "User",
+      "targetId": "user_std_3670996ab470214e",
+      "details": "STUDENT login successful for Student (21CS042)",
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-08-31T17:07:30.681Z"
+    },
+    {
+      "_id": "log_1f94b7e46caba6a4",
+      "action": "USER_LOGIN",
+      "performedBy": {
+        "userId": "user_admin_01",
+        "name": "Dr. Ramesh Sharma (Dean Finance)",
+        "email": "admin@college.edu",
+        "role": "ADMIN"
+      },
+      "targetEntity": "User",
+      "targetId": "user_admin_01",
+      "details": "ADMIN login successful for Dr. Ramesh Sharma (Dean Finance)",
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-08-31T17:07:30.466Z"
+    },
+    {
+      "_id": "log_1db123a80fe3ac24",
+      "action": "PAYMENT_VERIFIED_SUCCESS",
+      "performedBy": {
+        "userId": "user_std_de8da98b1d5e385c",
+        "name": "gfdsa",
+        "email": "edrf@gmail.com",
+        "role": "STUDENT"
+      },
+      "targetEntity": "PaymentRecord",
+      "targetId": "pay_31d77caac2f0071a",
+      "details": "Razorpay Test Mode payment of ₹65 verified for gfdsa (25CS850). Receipt #RCPT-2026-000013 generated.",
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-08-31T17:03:33.808Z"
+    },
+    {
+      "_id": "log_e0f4435a2d4e4e94",
+      "action": "STUDENT_REGISTERED",
+      "performedBy": {
+        "userId": "user_std_de8da98b1d5e385c",
+        "name": "gfdsa",
+        "email": "edrf@gmail.com",
+        "role": "STUDENT"
+      },
+      "targetEntity": "Student",
+      "targetId": "std_b84e436a1355d3a5",
+      "details": "New student gfdsa (25CS850) registered in Computer Science and Engineering",
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-08-31T17:02:22.081Z"
+    },
+    {
+      "_id": "log_6667c71e75aa6156",
+      "action": "USER_LOGIN",
+      "performedBy": {
+        "userId": "user_admin_01",
+        "name": "Dr. Ramesh Sharma (Dean Finance)",
+        "email": "admin@college.edu",
+        "role": "ADMIN"
+      },
+      "targetEntity": "User",
+      "targetId": "user_admin_01",
+      "details": "ADMIN login successful for Dr. Ramesh Sharma (Dean Finance)",
+      "ipAddress": "2401:4900:62c3:a162:b:4843:9d61:aa15, 169.254.169.126",
+      "timestamp": "2026-08-31T16:50:59.993Z"
+    },
+    {
+      "_id": "log_6598e49e1b4b7e3a",
+      "action": "USER_LOGIN",
+      "performedBy": {
+        "userId": "user_admin_01",
+        "name": "Dr. Ramesh Sharma (Dean Finance)",
+        "email": "admin@college.edu",
+        "role": "ADMIN"
+      },
+      "targetEntity": "User",
+      "targetId": "user_admin_01",
+      "details": "ADMIN login successful for Dr. Ramesh Sharma (Dean Finance)",
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-08-31T16:50:38.800Z"
+    },
+    {
+      "_id": "log_c7ca0360d3fcad19",
+      "action": "USER_LOGIN",
+      "performedBy": {
+        "userId": "user_admin_01",
+        "name": "Dr. Ramesh Sharma (Dean Finance)",
+        "email": "admin@college.edu",
+        "role": "ADMIN"
+      },
+      "targetEntity": "User",
+      "targetId": "user_admin_01",
+      "details": "ADMIN login successful for Dr. Ramesh Sharma (Dean Finance)",
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-08-31T16:50:34.443Z"
+    },
+    {
+      "_id": "log_52d67920e844a9ef",
+      "action": "USER_LOGIN",
+      "performedBy": {
+        "userId": "user_std_01",
+        "name": "Sai Harini Medam",
+        "email": "saiharinimedam@gmail.com",
+        "role": "STUDENT"
+      },
+      "targetEntity": "User",
+      "targetId": "user_std_01",
+      "details": "STUDENT login successful for Sai Harini Medam",
+      "ipAddress": "2401:4900:62c3:a162:b:4843:9d61:aa15, 169.254.169.126",
+      "timestamp": "2026-08-31T16:50:12.328Z"
+    },
+    {
+      "_id": "log_c94106cdaa127c8f",
+      "action": "USER_LOGIN",
+      "performedBy": {
+        "userId": "user_admin_01",
+        "name": "Dr. Ramesh Sharma (Dean Finance)",
+        "email": "admin@college.edu",
+        "role": "ADMIN"
+      },
+      "targetEntity": "User",
+      "targetId": "user_admin_01",
+      "details": "ADMIN login successful for Dr. Ramesh Sharma (Dean Finance)",
+      "ipAddress": "2401:4900:62c3:a162:b:4843:9d61:aa15, 169.254.169.126",
+      "timestamp": "2026-08-31T16:48:31.859Z"
+    },
+    {
+      "_id": "log_b7d71a5dc91b70c7",
+      "action": "USER_LOGIN",
+      "performedBy": {
+        "userId": "user_std_01",
+        "name": "Sai Harini Medam",
+        "email": "saiharinimedam@gmail.com",
+        "role": "STUDENT"
+      },
+      "targetEntity": "User",
+      "targetId": "user_std_01",
+      "details": "STUDENT login successful for Sai Harini Medam",
+      "ipAddress": "2401:4900:62c3:a162:b:4843:9d61:aa15, 169.254.169.126",
+      "timestamp": "2026-08-31T16:48:19.026Z"
+    },
+    {
+      "_id": "log_8b94995a297e9755",
+      "action": "USER_LOGIN",
+      "performedBy": {
+        "userId": "user_admin_01",
+        "name": "Dr. Ramesh Sharma (Dean Finance)",
+        "email": "admin@college.edu",
+        "role": "ADMIN"
+      },
+      "targetEntity": "User",
+      "targetId": "user_admin_01",
+      "details": "ADMIN login successful for Dr. Ramesh Sharma (Dean Finance)",
+      "ipAddress": "2401:4900:62c3:a162:b:4843:9d61:aa15, 169.254.169.126",
+      "timestamp": "2026-08-31T16:15:11.764Z"
+    },
+    {
+      "_id": "log_72f146036db2b488",
+      "action": "PAYMENT_VERIFIED_SUCCESS",
+      "performedBy": {
+        "userId": "user_std_803a595dd3670b37",
+        "name": "sindhu",
+        "email": "sindhu@gmail.com",
+        "role": "STUDENT"
+      },
+      "targetEntity": "PaymentRecord",
+      "targetId": "pay_8e78994af2ce44f6",
+      "details": "Razorpay Test Mode payment of ₹65,000 verified for sindhu (23091A05). Receipt #RCPT-2026-000014 generated.",
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-08-31T16:12:06.053Z"
+    },
+    {
+      "_id": "log_4d0a724c9220e525",
+      "action": "STUDENT_REGISTERED",
+      "performedBy": {
+        "userId": "user_std_803a595dd3670b37",
+        "name": "sindhu",
+        "email": "sindhu@gmail.com",
+        "role": "STUDENT"
+      },
+      "targetEntity": "Student",
+      "targetId": "std_709f5827f0a888b4",
+      "details": "New student sindhu (23091A05) registered in Electronics & Communication",
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-08-31T16:10:42.778Z"
+    },
+    {
+      "_id": "log_6a3a3f2b29d6afec",
+      "action": "USER_LOGIN",
+      "performedBy": {
+        "userId": "user_std_01",
+        "name": "Sai Harini Medam",
+        "email": "saiharinimedam@gmail.com",
+        "role": "STUDENT"
+      },
+      "targetEntity": "User",
+      "targetId": "user_std_01",
+      "details": "STUDENT login successful for Sai Harini Medam",
+      "ipAddress": "2401:4900:62c3:a162:b:4843:9d61:aa15, 169.254.169.126",
+      "timestamp": "2026-08-31T16:09:23.022Z"
+    },
+    {
+      "_id": "log_98e0a5cb150336f9",
+      "action": "USER_LOGIN",
+      "performedBy": {
+        "userId": "user_std_03",
+        "name": "Priya Sundaram",
+        "email": "priya.s@student.college.edu",
+        "role": "STUDENT"
+      },
+      "targetEntity": "User",
+      "targetId": "user_std_03",
+      "details": "STUDENT login successful for Priya Sundaram",
+      "ipAddress": "2401:4900:62c3:a162:b:4843:9d61:aa15, 169.254.169.126",
+      "timestamp": "2026-08-31T16:08:34.942Z"
+    },
+    {
+      "_id": "log_c0051076bf5551cf",
+      "action": "PAYMENT_VERIFIED_SUCCESS",
+      "performedBy": {
+        "userId": "user_std_02",
+        "name": "Aarav Patel",
+        "email": "aarav.patel@student.college.edu",
+        "role": "STUDENT"
+      },
+      "targetEntity": "PaymentRecord",
+      "targetId": "pay_0e0318518eb3e0b8",
+      "details": "Razorpay Test Mode payment of ₹84,886 verified for Aarav Patel (21CS102). Receipt #RCPT-2026-000011 generated.",
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-08-31T15:58:04.615Z"
+    },
+    {
+      "_id": "log_357dd0a957b0e0a8",
+      "action": "USER_LOGIN",
+      "performedBy": {
+        "userId": "user_std_02",
+        "name": "Aarav Patel",
+        "email": "aarav.patel@student.college.edu",
+        "role": "STUDENT"
+      },
+      "targetEntity": "User",
+      "targetId": "user_std_02",
+      "details": "STUDENT login successful for Aarav Patel",
+      "ipAddress": "2401:4900:62c3:a162:b:4843:9d61:aa15, 169.254.169.126",
+      "timestamp": "2026-08-31T15:57:17.345Z"
+    },
+    {
+      "_id": "log_918b05236a12cf41",
+      "action": "USER_LOGIN",
+      "performedBy": {
+        "userId": "user_std_01",
+        "name": "Sai Harini Medam",
+        "email": "saiharinimedam@gmail.com",
+        "role": "STUDENT"
+      },
+      "targetEntity": "User",
+      "targetId": "user_std_01",
+      "details": "STUDENT login successful for Sai Harini Medam",
+      "ipAddress": "2401:4900:62c3:a162:b:4843:9d61:aa15, 169.254.169.126",
+      "timestamp": "2026-08-31T15:57:07.487Z"
+    },
+    {
+      "_id": "log_58eecefe1aadf691",
+      "action": "USER_LOGIN",
+      "performedBy": {
+        "userId": "user_admin_01",
+        "name": "Dr. Ramesh Sharma (Dean Finance)",
+        "email": "admin@college.edu",
+        "role": "ADMIN"
+      },
+      "targetEntity": "User",
+      "targetId": "user_admin_01",
+      "details": "ADMIN login successful for Dr. Ramesh Sharma (Dean Finance)",
+      "ipAddress": "2401:4900:62c3:a162:b:4843:9d61:aa15, 169.254.169.126",
+      "timestamp": "2026-08-31T14:53:54.648Z"
+    },
+    {
+      "_id": "log_4fe0c7fc1801f942",
+      "action": "PAYMENT_VERIFIED_SUCCESS",
+      "performedBy": {
+        "userId": "user_std_02",
+        "name": "Aarav Patel",
+        "email": "aarav.patel@student.college.edu",
+        "role": "STUDENT"
+      },
+      "targetEntity": "PaymentRecord",
+      "targetId": "pay_c2a68da0fb32ca39",
+      "details": "Razorpay Test Mode payment of ₹84 verified for Aarav Patel (21CS102). Receipt #RCPT-2026-90842 generated.",
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-08-31T14:40:12.979Z"
+    },
+    {
+      "_id": "log_f28296cd877e6027",
+      "action": "USER_LOGIN",
+      "performedBy": {
+        "userId": "user_std_02",
+        "name": "Aarav Patel",
+        "email": "aarav.patel@student.college.edu",
+        "role": "STUDENT"
+      },
+      "targetEntity": "User",
+      "targetId": "user_std_02",
+      "details": "STUDENT login successful for Aarav Patel",
+      "ipAddress": "2401:4900:62c3:a162:b:4843:9d61:aa15, 169.254.169.126",
+      "timestamp": "2026-08-31T14:38:57.937Z"
+    },
+    {
+      "_id": "log_ad3197dbd9ad8d89",
+      "action": "USER_LOGIN",
+      "performedBy": {
+        "userId": "user_std_01",
+        "name": "Sai Harini Medam",
+        "email": "saiharinimedam@gmail.com",
+        "role": "STUDENT"
+      },
+      "targetEntity": "User",
+      "targetId": "user_std_01",
+      "details": "STUDENT login successful for Sai Harini Medam",
+      "ipAddress": "2401:4900:62c3:a162:b:4843:9d61:aa15, 169.254.169.126",
+      "timestamp": "2026-08-31T14:38:23.979Z"
+    },
+    {
+      "_id": "log_3fb07930a3450a45",
+      "action": "USER_LOGIN",
+      "performedBy": {
+        "userId": "user_admin_01",
+        "name": "Dr. Ramesh Sharma (Dean Finance)",
+        "email": "admin@college.edu",
+        "role": "ADMIN"
+      },
+      "targetEntity": "User",
+      "targetId": "user_admin_01",
+      "details": "ADMIN login successful for Dr. Ramesh Sharma (Dean Finance)",
+      "ipAddress": "2401:4900:62c3:a162:b:4843:9d61:aa15, 169.254.169.126",
+      "timestamp": "2026-08-31T14:34:48.505Z"
+    },
+    {
+      "_id": "log_8eabfaad13733c9d",
+      "action": "USER_LOGIN",
+      "performedBy": {
+        "userId": "user_std_01",
+        "name": "Sai Harini Medam",
+        "email": "saiharinimedam@gmail.com",
+        "role": "STUDENT"
+      },
+      "targetEntity": "User",
+      "targetId": "user_std_01",
+      "details": "STUDENT login successful for Sai Harini Medam",
+      "ipAddress": "2401:4900:62c3:a162:b:4843:9d61:aa15, 169.254.169.126",
+      "timestamp": "2026-08-31T14:34:40.956Z"
+    },
+    {
+      "_id": "log_58f404cfaa202238",
+      "action": "USER_LOGIN",
+      "performedBy": {
+        "userId": "user_admin_01",
+        "name": "Dr. Ramesh Sharma (Dean Finance)",
+        "email": "admin@college.edu",
+        "role": "ADMIN"
+      },
+      "targetEntity": "User",
+      "targetId": "user_admin_01",
+      "details": "ADMIN login successful for Dr. Ramesh Sharma (Dean Finance)",
+      "ipAddress": "2401:4900:62c3:a162:b:4843:9d61:aa15, 169.254.169.126",
+      "timestamp": "2026-08-31T14:24:57.833Z"
+    },
+    {
+      "_id": "log_caba7e0e99042a89",
+      "action": "PAYMENT_VERIFIED_SUCCESS",
+      "performedBy": {
+        "userId": "user_std_02",
+        "name": "Aarav Patel",
+        "email": "aarav.patel@student.college.edu",
+        "role": "STUDENT"
+      },
+      "targetEntity": "PaymentRecord",
+      "targetId": "pay_f5a1926defcb0c0c",
+      "details": "Razorpay Test Mode payment of ₹30 verified for Aarav Patel (21CS102). Receipt #RCPT-2026-87849 generated.",
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-08-31T14:21:37.050Z"
+    },
+    {
+      "_id": "log_a0d56015fac6dcd8",
+      "action": "USER_LOGIN",
+      "performedBy": {
+        "userId": "user_std_02",
+        "name": "Aarav Patel",
+        "email": "aarav.patel@student.college.edu",
+        "role": "STUDENT"
+      },
+      "targetEntity": "User",
+      "targetId": "user_std_02",
+      "details": "STUDENT login successful for Aarav Patel",
+      "ipAddress": "2401:4900:62c3:a162:b:4843:9d61:aa15, 169.254.169.126",
+      "timestamp": "2026-08-31T14:20:29.810Z"
+    },
+    {
+      "_id": "log_0e99ac9af20dc424",
+      "action": "USER_LOGIN",
+      "performedBy": {
+        "userId": "user_admin_02",
+        "name": "Prof. Anjali Mehta (Accounts Officer)",
+        "email": "accounts@college.edu",
+        "role": "ADMIN"
+      },
+      "targetEntity": "User",
+      "targetId": "user_admin_02",
+      "details": "ADMIN login successful for Prof. Anjali Mehta (Accounts Officer)",
+      "ipAddress": "2401:4900:62c3:a162:b:4843:9d61:aa15, 169.254.169.126",
+      "timestamp": "2026-08-31T14:20:21.395Z"
+    },
+    {
+      "_id": "log_b318369f1e57ec84",
+      "action": "PAYMENT_VERIFIED_SUCCESS",
+      "performedBy": {
+        "userId": "user_std_01",
+        "name": "Sai Harini Medam",
+        "email": "saiharinimedam@gmail.com",
+        "role": "STUDENT"
+      },
+      "targetEntity": "PaymentRecord",
+      "targetId": "pay_b1e4d62b317777ce",
+      "details": "Razorpay Test Mode payment of ₹25,000 verified for Sai Harini Medam (21CS101). Receipt #RCPT-2026-36213 generated.",
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-08-31T14:16:36.926Z"
+    },
+    {
+      "_id": "log_01",
+      "action": "FEE_RECORD_CREATED",
+      "performedBy": {
+        "userId": "user_admin_01",
+        "name": "Dr. Ramesh Sharma",
+        "email": "admin@college.edu",
+        "role": "ADMIN"
+      },
+      "targetEntity": "FeeRecord",
+      "targetId": "fee_01",
+      "details": "Assigned VIII Semester Fee (Rs. 65,000) to Sai Harini Medam (21CS101)",
+      "ipAddress": "192.168.1.102",
+      "timestamp": "2026-07-01T10:00:00.000Z"
+    },
+    {
+      "_id": "log_02",
+      "action": "PAYMENT_VERIFIED_SUCCESS",
+      "performedBy": {
+        "userId": "user_std_01",
+        "name": "Sai Harini Medam",
+        "email": "saiharinimedam@gmail.com",
+        "role": "STUDENT"
+      },
+      "targetEntity": "PaymentRecord",
+      "targetId": "pay_01",
+      "details": "Razorpay payment of Rs. 40,000 verified with HMAC signature. Receipt RCPT-2026-08819 issued.",
+      "ipAddress": "49.205.12.88",
+      "timestamp": "2026-07-15T14:30:05.000Z"
+    },
+    {
+      "_id": "log_03",
+      "action": "PAYMENT_VERIFIED_SUCCESS",
+      "performedBy": {
+        "userId": "user_std_03",
+        "name": "Priya Sundaram",
+        "email": "priya.s@student.college.edu",
+        "role": "STUDENT"
+      },
+      "targetEntity": "PaymentRecord",
+      "targetId": "pay_02",
+      "details": "Razorpay payment of Rs. 32,000 verified. Receipt RCPT-2026-07719 issued. Fee status updated to PAID.",
+      "ipAddress": "157.48.21.19",
+      "timestamp": "2026-08-10T11:20:06.000Z"
+    },
+    {
+      "_id": "log_04",
+      "action": "PAYMENT_ATTEMPT_FAILED",
+      "performedBy": {
+        "userId": "user_std_02",
+        "name": "Aarav Patel",
+        "email": "aarav.patel@student.college.edu",
+        "role": "STUDENT"
+      },
+      "targetEntity": "PaymentRecord",
+      "targetId": "pay_05",
+      "details": "Payment attempt of Rs. 85,000 failed at gateway. Reason: Transaction declined by bank.",
+      "ipAddress": "106.51.78.204",
+      "timestamp": "2026-08-12T09:14:00.000Z"
+    }
+  ]
+}
