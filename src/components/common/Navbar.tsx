@@ -10,7 +10,9 @@ import {
   Search,
   ExternalLink,
   Menu,
-  X
+  X,
+  Clock,
+  ShieldAlert
 } from 'lucide-react';
 import { useAuth } from '../../context/AuthContext';
 import { DemoAccount } from '../../types';
@@ -81,7 +83,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onToggleSidebar, isSidebarOpen }
                 <Sparkles className="w-3.5 h-3.5 text-amber-500 fill-amber-400" />
                 <span className="hidden md:inline">Switch Demo Role:</span>
                 <span className="font-bold text-indigo-700">
-                  {user?.role === 'ADMIN' ? 'Admin / Finance' : 'Student'}
+                  {user?.role === 'FINANCE' ? 'Finance' : user?.role === 'ADMIN' ? 'Admin / Finance' : 'Student'}
                 </span>
                 <ChevronDown className="w-3.5 h-3.5 text-slate-500" />
               </button>
@@ -140,7 +142,12 @@ export const Navbar: React.FC<NavbarProps> = ({ onToggleSidebar, isSidebarOpen }
 
             {/* Role Badge */}
             <div className="hidden sm:flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-semibold border">
-              {user?.role === 'ADMIN' ? (
+              {user?.role === 'FINANCE' ? (
+                <div className="flex items-center gap-1 text-amber-700 bg-amber-50 border-amber-200 px-2 py-0.5 rounded-full">
+                  <ShieldCheck className="w-3.5 h-3.5" />
+                  <span>Finance Officer</span>
+                </div>
+              ) : user?.role === 'ADMIN' ? (
                 <div className="flex items-center gap-1 text-purple-700 bg-purple-50 border-purple-200 px-2 py-0.5 rounded-full">
                   <ShieldCheck className="w-3.5 h-3.5" />
                   <span>Admin Mode</span>
@@ -183,6 +190,10 @@ export const Navbar: React.FC<NavbarProps> = ({ onToggleSidebar, isSidebarOpen }
                         Roll: {user.student.rollNumber}
                       </p>
                     )}
+                    <div className="mt-2 pt-1.5 border-t border-slate-100 flex items-center gap-1.5 text-[10px] text-slate-500 font-medium">
+                      <Clock className="w-3 h-3 text-indigo-500 shrink-0" />
+                      <span>Auto-expires after 15m inactivity</span>
+                    </div>
                   </div>
                   <button
                     id="logout-btn"

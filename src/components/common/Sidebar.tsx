@@ -51,7 +51,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
   onClose
 }) => {
   const { user } = useAuth();
-  const isAdmin = user?.role === 'ADMIN';
+  const isAdminOrFinance = user?.role === 'ADMIN' || user?.role === 'FINANCE';
 
   const studentNavItems: NavItem[] = [
     { id: 'student-dashboard', label: 'Dashboard & Overview', icon: LayoutDashboard },
@@ -61,7 +61,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
   ];
 
   const adminNavItems: NavItem[] = [
-    { id: 'admin-dashboard', label: 'Analytics Dashboard', icon: LayoutDashboard },
+    { id: 'admin-dashboard', label: user?.role === 'FINANCE' ? 'Finance Dashboard' : 'Analytics Dashboard', icon: LayoutDashboard },
     { id: 'admin-students', label: 'Student Directory', icon: Users },
     { id: 'admin-fees', label: 'Fee Structures & Assign', icon: Layers },
     { id: 'admin-payments', label: 'Payment Transactions', icon: Receipt },
@@ -69,7 +69,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
     { id: 'admin-audit-logs', label: 'Security & Audit Trail', icon: Activity }
   ];
 
-  const navItems = isAdmin ? adminNavItems : studentNavItems;
+  const navItems = isAdminOrFinance ? adminNavItems : studentNavItems;
 
   const handleItemClick = (id: ActiveTab) => {
     onSelectTab(id);
@@ -95,7 +95,11 @@ export const Sidebar: React.FC<SidebarProps> = ({
           {/* Section title */}
           <div className="px-3 mb-3 flex items-center justify-between">
             <span className="text-[11px] font-bold uppercase tracking-wider text-slate-400">
-              {isAdmin ? 'Administration Controls' : 'Student Academic Hub'}
+              {user?.role === 'FINANCE'
+                ? 'Finance & Accounts Hub'
+                : user?.role === 'ADMIN'
+                ? 'Administration Controls'
+                : 'Student Academic Hub'}
             </span>
             <span className="text-[10px] font-mono px-1.5 py-0.5 rounded bg-slate-800 text-slate-400">
               v1.0

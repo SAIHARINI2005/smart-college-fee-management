@@ -22,16 +22,17 @@ import { AuditLogsView } from './components/admin/AuditLogsView';
 const MainPortal: React.FC = () => {
   const { user, isAuthenticated, isLoading } = useAuth();
   const [authView, setAuthView] = useState<'LOGIN' | 'REGISTER'>('LOGIN');
+  const [loginPrefill, setLoginPrefill] = useState<{ email?: string; message?: string } | null>(null);
   const [isSidebarOpen, setIsSidebarOpen] = useState<boolean>(false);
 
   // Active Tab state
   const [activeTab, setActiveTab] = useState<ActiveTab>(
-    user?.role === 'ADMIN' ? 'admin-dashboard' : 'student-dashboard'
+    user?.role === 'ADMIN' || user?.role === 'FINANCE' ? 'admin-dashboard' : 'student-dashboard'
   );
 
   // Synchronize default tab if role changes
   React.useEffect(() => {
-    if (user?.role === 'ADMIN' && !activeTab.startsWith('admin-')) {
+    if ((user?.role === 'ADMIN' || user?.role === 'FINANCE') && !activeTab.startsWith('admin-')) {
       setActiveTab('admin-dashboard');
     } else if (user?.role === 'STUDENT' && !activeTab.startsWith('student-')) {
       setActiveTab('student-dashboard');
@@ -50,9 +51,27 @@ const MainPortal: React.FC = () => {
   // If not signed in, show Login or Register view
   if (!isAuthenticated || !user) {
     return authView === 'LOGIN' ? (
-      <LoginView onSwitchToRegister={() => setAuthView('REGISTER')} />
+      <LoginView
+        onSwitchToRegister={() => {
+          setLoginPrefill(null);
+          setAuthView('REGISTER');
+        }}
+        initialRole="STUDENT"
+        initialEmail={loginPrefill?.email}
+        initialSuccessMessage={loginPrefill?.message}
+      />
     ) : (
-      <RegisterView onSwitchToLogin={() => setAuthView('LOGIN')} />
+      <RegisterView
+        onSwitchToLogin={(registeredEmail, successMessage) => {
+          if (registeredEmail || successMessage) {
+            setLoginPrefill({
+              email: registeredEmail,
+              message: successMessage
+            });
+          }
+          setAuthView('LOGIN');
+        }}
+      />
     );
   }
 
@@ -91,8 +110,8 @@ const MainPortal: React.FC = () => {
               </>
             )}
 
-            {/* Admin Role Views */}
-            {user.role === 'ADMIN' && (
+            {/* Admin & Finance Role Views */}
+            {(user.role === 'ADMIN' || user.role === 'FINANCE') && (
               <>
                 {activeTab === 'admin-dashboard' && (
                   <AdminDashboard

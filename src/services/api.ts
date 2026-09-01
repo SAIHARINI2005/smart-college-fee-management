@@ -23,6 +23,15 @@ function getAuthHeaders(): HeadersInit {
 async function handleResponse<T>(res: Response): Promise<T> {
   const data = await res.json().catch(() => ({}));
   if (!res.ok) {
+    if (res.status === 401 && (data.inactivityExpired || data.sessionExpired)) {
+      if (typeof window !== 'undefined') {
+        window.dispatchEvent(
+          new CustomEvent('portal:session-inactivity-expired', {
+            detail: { message: data.message || 'Session expired due to inactivity.' }
+          })
+        );
+      }
+    }
     throw new Error(data.message || `Request failed with status ${res.status}`);
   }
   return data;
@@ -65,9 +74,9 @@ export const api = {
 
   async register(studentData: any): Promise<{
     success: boolean;
-    token: string;
-    user: User;
     message: string;
+    email?: string;
+    role?: string;
   }> {
     const res = await fetch(`${API_BASE}/auth/register`, {
       method: 'POST',
@@ -77,8 +86,58 @@ export const api = {
     return handleResponse(res);
   },
 
+  async registerAdmin(adminData: {
+    name: string;
+    email: string;
+    phone?: string;
+    password: string;
+    confirmPassword: string;
+    role: 'ADMIN' | 'FINANCE';
+    registrationCode: string;
+  }): Promise<{
+    success: boolean;
+    message: string;
+    email?: string;
+    role?: string;
+  }> {
+    const res = await fetch(`${API_BASE}/auth/register-admin`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(adminData)
+    });
+    return handleResponse(res);
+  },
+
   async getMe(): Promise<{ success: boolean; user: User }> {
     const res = await fetch(`${API_BASE}/auth/me`, {
+      headers: getAuthHeaders()
+    });
+    return handleResponse(res);
+  },
+
+  async getSessionStatus(): Promise<{
+    success: boolean;
+    authenticated: boolean;
+    timeoutMs: number;
+    timeoutMinutes: number;
+    remainingMs: number;
+    lastActive: number;
+  }> {
+    const res = await fetch(`${API_BASE}/auth/session-status`, {
+      headers: getAuthHeaders()
+    });
+    return handleResponse(res);
+  },
+
+  async pingSession(): Promise<{
+    success: boolean;
+    refreshed: boolean;
+    timeoutMinutes: number;
+    remainingMs: number;
+    message: string;
+  }> {
+    const res = await fetch(`${API_BASE}/auth/ping`, {
+      method: 'POST',
       headers: getAuthHeaders()
     });
     return handleResponse(res);

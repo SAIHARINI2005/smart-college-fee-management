@@ -10,7 +10,7 @@ export interface User {
   name: string;
   email: string;
   passwordHash: string;
-  role: 'STUDENT' | 'ADMIN';
+  role: 'STUDENT' | 'ADMIN' | 'FINANCE';
   phone: string;
   createdAt: string;
   updatedAt: string;
@@ -840,7 +840,7 @@ export async function syncWithMongoDB(): Promise<void> {
 
     console.log('✅ MongoDB Atlas college_fee_management database & collections verified and seeded.');
 
-    // If MongoDB had pre-existing records, merge back to local cache
+    // If MongoDB had pre-existing records, merge into local cache
     if (studentCount > 0 && userCount > 0) {
       const [mongoUsers, mongoStudents, mongoFees, mongoPayments] = await Promise.all([
         UserModel.find().lean().catch(() => []),
@@ -849,35 +849,71 @@ export async function syncWithMongoDB(): Promise<void> {
         PaymentModel.find().lean().catch(() => [])
       ]);
 
-      if (mongoStudents.length > 0) {
-        dbData.students = mongoStudents.map((s: any) => ({
-          ...s,
-          createdAt: s.createdAt instanceof Date ? s.createdAt.toISOString() : String(s.createdAt || new Date().toISOString())
-        })) as any;
-      }
-      if (mongoFees.length > 0) {
-        dbData.fees = mongoFees.map((f: any) => ({
-          ...f,
-          dueDate: f.dueDate instanceof Date ? f.dueDate.toISOString().split('T')[0] : String(f.dueDate || ''),
-          createdAt: f.createdAt instanceof Date ? f.createdAt.toISOString() : String(f.createdAt || new Date().toISOString()),
-          updatedAt: f.updatedAt instanceof Date ? f.updatedAt.toISOString() : String(f.updatedAt || new Date().toISOString())
-        })) as any;
-      }
-      if (mongoPayments.length > 0) {
-        dbData.payments = mongoPayments.map((p: any) => ({
-          ...p,
-          transactionDate: p.transactionDate instanceof Date ? p.transactionDate.toISOString() : String(p.transactionDate || new Date().toISOString()),
-          verifiedAt: p.verifiedAt ? (p.verifiedAt instanceof Date ? p.verifiedAt.toISOString() : String(p.verifiedAt)) : undefined,
-          createdAt: p.createdAt instanceof Date ? p.createdAt.toISOString() : String(p.createdAt || new Date().toISOString())
-        })) as any;
-      }
       if (mongoUsers.length > 0) {
-        dbData.users = mongoUsers.map((u: any) => ({
-          ...u,
-          createdAt: u.createdAt instanceof Date ? u.createdAt.toISOString() : String(u.createdAt || new Date().toISOString()),
-          updatedAt: u.updatedAt instanceof Date ? u.updatedAt.toISOString() : String(u.updatedAt || new Date().toISOString())
-        })) as any;
+        for (const u of mongoUsers as any[]) {
+          const idx = dbData.users.findIndex((x) => x._id === u._id || x.email.toLowerCase() === (u.email || '').toLowerCase());
+          const cleanUser = {
+            ...u,
+            createdAt: u.createdAt instanceof Date ? u.createdAt.toISOString() : String(u.createdAt || new Date().toISOString()),
+            updatedAt: u.updatedAt instanceof Date ? u.updatedAt.toISOString() : String(u.updatedAt || new Date().toISOString())
+          };
+          if (idx >= 0) {
+            dbData.users[idx] = cleanUser;
+          } else {
+            dbData.users.push(cleanUser);
+          }
+        }
       }
+
+      if (mongoStudents.length > 0) {
+        for (const s of mongoStudents as any[]) {
+          const idx = dbData.students.findIndex((x) => x._id === s._id || x.rollNumber.toUpperCase() === (s.rollNumber || '').toUpperCase());
+          const cleanStudent = {
+            ...s,
+            createdAt: s.createdAt instanceof Date ? s.createdAt.toISOString() : String(s.createdAt || new Date().toISOString())
+          };
+          if (idx >= 0) {
+            dbData.students[idx] = cleanStudent;
+          } else {
+            dbData.students.push(cleanStudent);
+          }
+        }
+      }
+
+      if (mongoFees.length > 0) {
+        for (const f of mongoFees as any[]) {
+          const idx = dbData.fees.findIndex((x) => x._id === f._id);
+          const cleanFee = {
+            ...f,
+            dueDate: f.dueDate instanceof Date ? f.dueDate.toISOString().split('T')[0] : String(f.dueDate || ''),
+            createdAt: f.createdAt instanceof Date ? f.createdAt.toISOString() : String(f.createdAt || new Date().toISOString()),
+            updatedAt: f.updatedAt instanceof Date ? f.updatedAt.toISOString() : String(f.updatedAt || new Date().toISOString())
+          };
+          if (idx >= 0) {
+            dbData.fees[idx] = cleanFee;
+          } else {
+            dbData.fees.push(cleanFee);
+          }
+        }
+      }
+
+      if (mongoPayments.length > 0) {
+        for (const p of mongoPayments as any[]) {
+          const idx = dbData.payments.findIndex((x) => x._id === p._id || (p.paymentId && x.paymentId === p.paymentId));
+          const cleanPayment = {
+            ...p,
+            transactionDate: p.transactionDate instanceof Date ? p.transactionDate.toISOString() : String(p.transactionDate || new Date().toISOString()),
+            verifiedAt: p.verifiedAt ? (p.verifiedAt instanceof Date ? p.verifiedAt.toISOString() : String(p.verifiedAt)) : undefined,
+            createdAt: p.createdAt instanceof Date ? p.createdAt.toISOString() : String(p.createdAt || new Date().toISOString())
+          };
+          if (idx >= 0) {
+            dbData.payments[idx] = cleanPayment;
+          } else {
+            dbData.payments.push(cleanPayment);
+          }
+        }
+      }
+
       fs.writeFileSync(DB_FILE_PATH, JSON.stringify(dbData, null, 2), 'utf-8');
     }
   } catch (err: any) {
@@ -896,29 +932,31 @@ export function saveDB(data?: DatabaseSchema) {
     if (isMongoConnected()) {
       Promise.all([
         ...dbData.users.map((u) =>
-          UserModel.findByIdAndUpdate(u._id, u, { upsert: true }).catch(() => {})
+          UserModel.findOneAndUpdate({ _id: u._id }, { $set: u }, { upsert: true }).catch(() => {})
         ),
         ...dbData.students.map((s) =>
-          StudentModel.findByIdAndUpdate(s._id, s, { upsert: true }).catch(() => {})
+          StudentModel.findOneAndUpdate({ _id: s._id }, { $set: s }, { upsert: true }).catch(() => {})
         ),
         ...dbData.fees.map((f) =>
-          FeeModel.findByIdAndUpdate(f._id, f, { upsert: true }).catch(() => {})
+          FeeModel.findOneAndUpdate({ _id: f._id }, { $set: { ...f, dueDate: new Date(f.dueDate) } }, { upsert: true }).catch(() => {})
         ),
         ...dbData.payments.map((p) =>
-          PaymentModel.findByIdAndUpdate(p._id, p, { upsert: true }).catch(() => {})
+          PaymentModel.findOneAndUpdate({ _id: p._id }, { $set: p }, { upsert: true }).catch(() => {})
         ),
         ...dbData.auditLogs.slice(0, 50).map((a) =>
-          AuditLogModel.findByIdAndUpdate(
-            a._id,
+          AuditLogModel.findOneAndUpdate(
+            { _id: a._id },
             {
-              _id: a._id,
-              action: a.action,
-              performedBy: a.performedBy,
-              targetEntity: a.targetEntity,
-              targetId: a.targetId,
-              description: a.details,
-              ipAddress: a.ipAddress,
-              timestamp: new Date(a.timestamp)
+              $set: {
+                _id: a._id,
+                action: a.action,
+                performedBy: a.performedBy,
+                targetEntity: a.targetEntity,
+                targetId: a.targetId,
+                description: a.details,
+                ipAddress: a.ipAddress,
+                timestamp: new Date(a.timestamp)
+              }
             },
             { upsert: true }
           ).catch(() => {})

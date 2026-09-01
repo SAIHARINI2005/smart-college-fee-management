@@ -8,7 +8,7 @@
       "role": "ADMIN",
       "phone": "+91 98765 43211",
       "createdAt": "2026-08-31T14:08:35.217Z",
-      "updatedAt": "2026-08-31T17:07:30.685Z",
+      "updatedAt": "2026-09-01T14:31:22.021Z",
       "__v": 0
     },
     {
@@ -19,7 +19,7 @@
       "role": "ADMIN",
       "phone": "+91 98765 43210",
       "createdAt": "2026-08-31T14:08:35.217Z",
-      "updatedAt": "2026-08-31T17:07:30.685Z",
+      "updatedAt": "2026-09-01T14:31:22.021Z",
       "__v": 0
     },
     {
@@ -30,7 +30,7 @@
       "role": "STUDENT",
       "phone": "+91 91234 56782",
       "createdAt": "2026-08-31T14:08:35.217Z",
-      "updatedAt": "2026-08-31T17:07:30.685Z",
+      "updatedAt": "2026-09-01T14:31:22.021Z",
       "__v": 0
     },
     {
@@ -41,7 +41,7 @@
       "role": "STUDENT",
       "phone": "+91 91234 56780",
       "createdAt": "2026-08-31T14:08:35.217Z",
-      "updatedAt": "2026-08-31T17:07:30.685Z",
+      "updatedAt": "2026-09-01T14:31:22.021Z",
       "__v": 0
     },
     {
@@ -52,7 +52,7 @@
       "role": "STUDENT",
       "phone": "+91 91234 56783",
       "createdAt": "2026-08-31T14:08:35.217Z",
-      "updatedAt": "2026-08-31T17:07:30.685Z",
+      "updatedAt": "2026-09-01T14:31:22.021Z",
       "__v": 0
     },
     {
@@ -63,7 +63,7 @@
       "role": "STUDENT",
       "phone": "+91 91234 56784",
       "createdAt": "2026-08-31T14:08:35.217Z",
-      "updatedAt": "2026-08-31T17:07:30.685Z",
+      "updatedAt": "2026-09-01T14:31:22.021Z",
       "__v": 0
     },
     {
@@ -74,7 +74,7 @@
       "role": "STUDENT",
       "phone": "9832459045",
       "createdAt": "2026-08-31T16:10:42.776Z",
-      "updatedAt": "2026-08-31T17:07:30.685Z",
+      "updatedAt": "2026-09-01T14:31:22.021Z",
       "__v": 0
     },
     {
@@ -85,7 +85,7 @@
       "role": "STUDENT",
       "phone": "+91 91234 56781",
       "createdAt": "2026-08-31T14:08:35.217Z",
-      "updatedAt": "2026-08-31T17:07:30.685Z",
+      "updatedAt": "2026-09-01T14:31:22.021Z",
       "__v": 0
     },
     {
@@ -97,7 +97,7 @@
       "passwordHash": "$2b$10$POjR/wO/Jwr2qfG/bOPZ/u0hu4SUpszkxnnZ2x/9UktMaEdQrRFgS",
       "phone": "7894561235",
       "role": "STUDENT",
-      "updatedAt": "2026-08-31T17:07:30.685Z"
+      "updatedAt": "2026-09-01T14:31:22.021Z"
     },
     {
       "_id": "user_std_3670996ab470214e",
@@ -108,7 +108,104 @@
       "passwordHash": "$2b$10$RySqjTl9WU0N4OIESIFW9.p5BuWvS46aXOyIZ5QMeXduDNw.1mqv2",
       "phone": "+91 98765 43210",
       "role": "STUDENT",
-      "updatedAt": "2026-08-31T17:07:30.685Z"
+      "updatedAt": "2026-09-01T14:31:22.021Z"
+    },
+    {
+      "_id": "user_std_813cc49027e59d0f",
+      "__v": 0,
+      "createdAt": "2026-09-01T07:15:02.421Z",
+      "email": "23091a05k6@gmail.com",
+      "name": "Student (23091A05K6@GMAIL.COM)",
+      "passwordHash": "$2b$10$6Ahra6WrzTT5DvLWnd.Tk..Mv7yAJ2HiTRmgg2./5ecHTZoZLCB2S",
+      "phone": "+91 98765 43210",
+      "role": "STUDENT",
+      "updatedAt": "2026-09-01T14:31:22.021Z"
+    },
+    {
+      "_id": "user_std_eca556a6bb6cd797",
+      "__v": 0,
+      "createdAt": "2026-09-01T07:21:51.008Z",
+      "email": "test_user_1788247310806@example.edu",
+      "name": "Test Graduate Student",
+      "passwordHash": "$2b$10$3O8MXWPz0kg.5x5chZLwourPnfBsDP/YDGL9hfLOr/25M9ax/FUgm",
+      "phone": "+91 99999 00000",
+      "role": "STUDENT",
+      "updatedAt": "2026-09-01T14:31:22.021Z"
+    },
+    {
+      "_id": "user_std_e07fbcf5ddda163d",
+      "__v": 0,
+      "createdAt": "2026-09-01T07:21:53.563Z",
+      "email": "nonexistent_student_9999@college.edu",
+      "name": "Student (NONEXISTENT_STUDENT_9999@COLLEGE.EDU)",
+      "passwordHash": "$2b$10$DsYDgyTEDwkdNNY1JP6SiegZnhYjMPsNUYs9.oJFE/0PGdNBKf/gS",
+      "phone": "+91 98765 43210",
+      "role": "STUDENT",
+      "updatedAt": "2026-09-01T14:31:22.021Z"
+    },
+    {
+      "_id": "user_std_71cb7f0452766791",
+      "__v": 0,
+      "createdAt": "2026-09-01T07:22:01.561Z",
+      "email": "test_user_1788247321316@example.edu",
+      "name": "Test Graduate Student",
+      "passwordHash": "$2b$10$rOXhWMFHb7NqR4XRMxtnqeG2t.uKpG27TpBOSedOq2A4lRmoPL3n6",
+      "phone": "+91 99999 00000",
+      "role": "STUDENT",
+      "updatedAt": "2026-09-01T14:31:22.021Z"
+    },
+    {
+      "_id": "user_std_7c8a99abd28ec019",
+      "__v": 0,
+      "createdAt": "2026-09-01T07:23:25.236Z",
+      "email": "test_user_1788247405003@example.edu",
+      "name": "Test Graduate Student",
+      "passwordHash": "$2b$10$metQZvHp7eR5Z3bMQY1ZV.jDp7odWTFGW/tDtGG08CsNFf3fC2Uoi",
+      "phone": "+91 99999 00000",
+      "role": "STUDENT",
+      "updatedAt": "2026-09-01T14:31:22.021Z"
+    },
+    {
+      "_id": "user_std_104a393d26a32f8c",
+      "__v": 0,
+      "createdAt": "2026-09-01T07:34:55.615Z",
+      "email": "student.verification.1788248094813@college.edu",
+      "name": "Rohit Verma",
+      "passwordHash": "$2b$10$.dL2lMm2V/NqyU9KtWMdN.GGrNbSdP7mCXKYUyESu9XV140qvSH4S",
+      "phone": "+91 99999 00000",
+      "role": "STUDENT",
+      "updatedAt": "2026-09-01T14:31:22.021Z"
+    },
+    {
+      "_id": "user_std_11da3cee786aa972",
+      "name": "shahina",
+      "email": "shahina@gmail.com",
+      "passwordHash": "$2b$10$LUzERzI83RxP1Cz8UWS4/.zIas46/9K7l.fNO710uwFRkorTvMA56",
+      "role": "STUDENT",
+      "phone": "8765432349",
+      "createdAt": "2026-09-01T07:38:11.822Z",
+      "updatedAt": "2026-09-01T14:31:54.579Z"
+    },
+    {
+      "_id": "user_std_fd586fb64bed73b4",
+      "__v": 0,
+      "createdAt": "2026-09-01T14:29:35.427Z",
+      "email": "madhu@gmail.com",
+      "name": "madhu",
+      "passwordHash": "$2b$10$tY9M7lzgjwYmU5WGaxNeYOha11ZaJVJWhWyzOh7tt3jqQZKERKGSW",
+      "phone": "4567890345",
+      "role": "STUDENT",
+      "updatedAt": "2026-09-01T14:31:22.021Z"
+    },
+    {
+      "_id": "user_std_07a5172bb613778a",
+      "name": "New Registered Student",
+      "email": "student.test.1788273122002@college.edu",
+      "passwordHash": "$2b$10$CQ/EJaWG3nvsjibeHjEOHuhT8uHiYIVqn29w7qYfUFwpOiDQzKOWC",
+      "role": "STUDENT",
+      "phone": "+91 99999 00000",
+      "createdAt": "2026-09-01T14:32:03.064Z",
+      "updatedAt": "2026-09-01T14:32:03.064Z"
     }
   ],
   "admins": [
@@ -163,7 +260,7 @@
       "address": "12-B, Diamond Park, Ahmedabad",
       "status": "ACTIVE",
       "createdAt": "2026-08-31T14:08:35.217Z",
-      "updatedAt": "2026-08-31T17:07:30.685Z",
+      "updatedAt": "2026-09-01T14:31:22.021Z",
       "__v": 0
     },
     {
@@ -185,7 +282,7 @@
       "address": "Flat 302, Green Meadows, Bengaluru",
       "status": "ACTIVE",
       "createdAt": "2026-08-31T14:08:35.217Z",
-      "updatedAt": "2026-08-31T17:07:30.685Z",
+      "updatedAt": "2026-09-01T14:31:22.022Z",
       "__v": 0
     },
     {
@@ -207,7 +304,7 @@
       "address": "Plot 45, Tech Enclave, Phase 2, Hyderabad",
       "status": "ACTIVE",
       "createdAt": "2026-08-31T14:08:35.217Z",
-      "updatedAt": "2026-08-31T17:07:30.685Z",
+      "updatedAt": "2026-09-01T14:31:22.022Z",
       "__v": 0
     },
     {
@@ -229,7 +326,7 @@
       "address": "Campus Hostel / Residence",
       "status": "ACTIVE",
       "createdAt": "2026-08-31T16:10:42.776Z",
-      "updatedAt": "2026-08-31T17:07:30.685Z",
+      "updatedAt": "2026-09-01T14:31:22.022Z",
       "__v": 0
     },
     {
@@ -251,7 +348,7 @@
       "address": "Sector 14, Urban Estate, Gurgaon",
       "status": "ACTIVE",
       "createdAt": "2026-08-31T14:08:35.217Z",
-      "updatedAt": "2026-08-31T17:07:30.685Z",
+      "updatedAt": "2026-09-01T14:31:22.022Z",
       "__v": 0
     },
     {
@@ -273,7 +370,7 @@
       "address": "77, Anna Nagar West, Chennai",
       "status": "ACTIVE",
       "createdAt": "2026-08-31T14:08:35.217Z",
-      "updatedAt": "2026-08-31T17:07:30.685Z",
+      "updatedAt": "2026-09-01T14:31:22.022Z",
       "__v": 0
     },
     {
@@ -295,7 +392,7 @@
       "rollNumber": "25CS850",
       "semester": 1,
       "status": "ACTIVE",
-      "updatedAt": "2026-08-31T17:07:30.685Z",
+      "updatedAt": "2026-09-01T14:31:22.022Z",
       "userId": "user_std_de8da98b1d5e385c"
     },
     {
@@ -317,8 +414,226 @@
       "rollNumber": "21CS042",
       "semester": 6,
       "status": "ACTIVE",
-      "updatedAt": "2026-08-31T17:07:30.685Z",
+      "updatedAt": "2026-09-01T14:31:22.022Z",
       "userId": "user_std_3670996ab470214e"
+    },
+    {
+      "_id": "std_59554b149c4028c4",
+      "__v": 0,
+      "academicYear": "2025-2026",
+      "address": "University Campus Hostel Block B",
+      "admissionQuota": "MERIT",
+      "course": "B.Tech - Computer Science & Engineering",
+      "createdAt": "2026-09-01T07:15:02.421Z",
+      "department": "Computer Science and Engineering",
+      "email": "23091a05k6@gmail.com",
+      "feeCategory": "REGULAR",
+      "guardianName": "Guardian",
+      "guardianPhone": "+91 98480 12345",
+      "name": "Student (23091A05K6@GMAIL.COM)",
+      "phone": "+91 98765 43210",
+      "registrationNo": "REG-2025-23091A05K6@GMAIL.COM",
+      "rollNumber": "23091A05K6@GMAIL.COM",
+      "semester": 6,
+      "status": "ACTIVE",
+      "updatedAt": "2026-09-01T14:31:22.022Z",
+      "userId": "user_std_813cc49027e59d0f"
+    },
+    {
+      "_id": "std_541f88d1198926a4",
+      "__v": 0,
+      "academicYear": "2025-2026",
+      "address": "Campus Hostel / Residence",
+      "admissionQuota": "MERIT",
+      "course": "B.Tech - Computer Science & Engineering",
+      "createdAt": "2026-09-01T07:21:51.010Z",
+      "department": "Computer Science and Engineering",
+      "email": "test_user_1788247310806@example.edu",
+      "feeCategory": "REGULAR",
+      "guardianName": "Parent / Guardian",
+      "guardianPhone": "+91 98765 00000",
+      "name": "Test Graduate Student",
+      "phone": "+91 99999 00000",
+      "registrationNo": "REG-2026-25TS524",
+      "rollNumber": "25TS524",
+      "semester": 1,
+      "status": "ACTIVE",
+      "updatedAt": "2026-09-01T14:31:22.022Z",
+      "userId": "user_std_eca556a6bb6cd797"
+    },
+    {
+      "_id": "std_0d71fe618e6f6206",
+      "__v": 0,
+      "academicYear": "2025-2026",
+      "address": "University Campus Hostel Block B",
+      "admissionQuota": "MERIT",
+      "course": "B.Tech - Computer Science & Engineering",
+      "createdAt": "2026-09-01T07:21:53.563Z",
+      "department": "Computer Science and Engineering",
+      "email": "nonexistent_student_9999@college.edu",
+      "feeCategory": "REGULAR",
+      "guardianName": "Guardian",
+      "guardianPhone": "+91 98480 12345",
+      "name": "Student (NONEXISTENT_STUDENT_9999@COLLEGE.EDU)",
+      "phone": "+91 98765 43210",
+      "registrationNo": "REG-2025-NONEXISTENT_STUDENT_9999@COLLEGE.EDU",
+      "rollNumber": "NONEXISTENT_STUDENT_9999@COLLEGE.EDU",
+      "semester": 6,
+      "status": "ACTIVE",
+      "updatedAt": "2026-09-01T14:31:22.022Z",
+      "userId": "user_std_e07fbcf5ddda163d"
+    },
+    {
+      "_id": "std_66998c76617caca6",
+      "__v": 0,
+      "academicYear": "2025-2026",
+      "address": "Campus Hostel / Residence",
+      "admissionQuota": "MERIT",
+      "course": "B.Tech - Computer Science & Engineering",
+      "createdAt": "2026-09-01T07:22:04.980Z",
+      "department": "Computer Science and Engineering",
+      "email": "test_user_1788247321316@example.edu",
+      "feeCategory": "REGULAR",
+      "guardianName": "Parent / Guardian",
+      "guardianPhone": "+91 98765 00000",
+      "name": "Duplicate Person",
+      "phone": "+91 99999 00000",
+      "registrationNo": "REG-2026-25TS999",
+      "rollNumber": "25TS999",
+      "semester": 1,
+      "status": "ACTIVE",
+      "updatedAt": "2026-09-01T14:31:22.022Z",
+      "userId": "user_std_a20e826a1b431327"
+    },
+    {
+      "_id": "std_7614b4689bc00e87",
+      "__v": 0,
+      "academicYear": "2025-2026",
+      "address": "Campus Hostel / Residence",
+      "admissionQuota": "MERIT",
+      "course": "B.Tech - Computer Science & Engineering",
+      "createdAt": "2026-09-01T07:22:01.561Z",
+      "department": "Computer Science and Engineering",
+      "email": "test_user_1788247321316@example.edu",
+      "feeCategory": "REGULAR",
+      "guardianName": "Parent / Guardian",
+      "guardianPhone": "+91 98765 00000",
+      "name": "Test Graduate Student",
+      "phone": "+91 99999 00000",
+      "registrationNo": "REG-2026-25TS712",
+      "rollNumber": "25TS712",
+      "semester": 1,
+      "status": "ACTIVE",
+      "updatedAt": "2026-09-01T14:31:22.022Z",
+      "userId": "user_std_71cb7f0452766791"
+    },
+    {
+      "_id": "std_afabf52ca9e1c029",
+      "__v": 0,
+      "academicYear": "2025-2026",
+      "address": "Campus Hostel / Residence",
+      "admissionQuota": "MERIT",
+      "course": "B.Tech - Computer Science & Engineering",
+      "createdAt": "2026-09-01T07:23:25.236Z",
+      "department": "Computer Science and Engineering",
+      "email": "test_user_1788247405003@example.edu",
+      "feeCategory": "REGULAR",
+      "guardianName": "Parent / Guardian",
+      "guardianPhone": "+91 98765 00000",
+      "name": "Test Graduate Student",
+      "phone": "+91 99999 00000",
+      "registrationNo": "REG-2026-25TS428",
+      "rollNumber": "25TS428",
+      "semester": 1,
+      "status": "ACTIVE",
+      "updatedAt": "2026-09-01T14:31:22.022Z",
+      "userId": "user_std_7c8a99abd28ec019"
+    },
+    {
+      "_id": "std_a6c72900b0e632eb",
+      "__v": 0,
+      "academicYear": "2025-2026",
+      "address": "Campus Hostel / Residence",
+      "admissionQuota": "MERIT",
+      "course": "B.Tech - Computer Science & Engineering",
+      "createdAt": "2026-09-01T07:34:55.316Z",
+      "department": "Computer Science and Engineering",
+      "email": "student.verification.1788248094813@college.edu",
+      "feeCategory": "REGULAR",
+      "guardianName": "Parent / Guardian",
+      "guardianPhone": "+91 98765 00000",
+      "name": "Rohit Verma",
+      "phone": "+91 99999 00000",
+      "registrationNo": "REG-2026-25CS350",
+      "rollNumber": "25CS350",
+      "semester": 1,
+      "status": "ACTIVE",
+      "updatedAt": "2026-09-01T14:31:22.022Z",
+      "userId": "user_std_104a393d26a32f8c"
+    },
+    {
+      "_id": "std_137c04544563e940",
+      "__v": 0,
+      "academicYear": "2025-2026",
+      "address": "Campus Hostel / Residence",
+      "admissionQuota": "MERIT",
+      "course": "B.Tech - Computer Science & Engineering",
+      "createdAt": "2026-09-01T07:38:11.541Z",
+      "department": "Computer Science and Engineering",
+      "email": "shahina@gmail.com",
+      "feeCategory": "REGULAR",
+      "guardianName": "fghjkl",
+      "guardianPhone": "2345678987",
+      "name": "shahina",
+      "phone": "8765432349",
+      "registrationNo": "REG-2025-3063",
+      "rollNumber": "23091A05K1",
+      "semester": 1,
+      "status": "ACTIVE",
+      "updatedAt": "2026-09-01T14:31:22.022Z",
+      "userId": "user_std_11da3cee786aa972"
+    },
+    {
+      "_id": "std_3ea4ed6881c8fe60",
+      "__v": 0,
+      "academicYear": "2025-2026",
+      "address": "Campus Hostel / Residence",
+      "admissionQuota": "GOVERNMENT",
+      "course": "B.Tech - Computer Science & Engineering",
+      "createdAt": "2026-09-01T14:29:35.120Z",
+      "department": "Electronics & Communication",
+      "email": "madhu@gmail.com",
+      "feeCategory": "REGULAR",
+      "guardianName": "sdfgh",
+      "guardianPhone": "2345678923",
+      "name": "madhu",
+      "phone": "4567890345",
+      "registrationNo": "REG-2025-9463",
+      "rollNumber": "23091A05K0",
+      "semester": 5,
+      "status": "ACTIVE",
+      "updatedAt": "2026-09-01T14:31:22.022Z",
+      "userId": "user_std_fd586fb64bed73b4"
+    },
+    {
+      "_id": "std_082428f55f18bbfa",
+      "userId": "user_std_07a5172bb613778a",
+      "rollNumber": "25CS363",
+      "registrationNo": "REG-2026-25CS363",
+      "name": "New Registered Student",
+      "email": "student.test.1788273122002@college.edu",
+      "phone": "+91 99999 00000",
+      "course": "B.Tech - Computer Science & Engineering",
+      "department": "Computer Science and Engineering",
+      "semester": 1,
+      "academicYear": "2025-2026",
+      "admissionQuota": "MERIT",
+      "feeCategory": "REGULAR",
+      "guardianName": "Parent / Guardian",
+      "guardianPhone": "+91 98765 00000",
+      "address": "Campus Hostel / Residence",
+      "status": "ACTIVE",
+      "createdAt": "2026-09-01T14:32:03.064Z"
     }
   ],
   "fees": [
@@ -373,7 +688,7 @@
       ],
       "remarks": "Automated initial fee assignment upon registration",
       "createdAt": "2026-08-31T16:10:42.776Z",
-      "updatedAt": "2026-08-31T17:07:30.685Z",
+      "updatedAt": "2026-09-01T14:31:22.022Z",
       "__v": 0
     },
     {
@@ -421,7 +736,7 @@
       ],
       "remarks": "Paid in full via Razorpay UPI.",
       "createdAt": "2026-06-25T11:00:00.000Z",
-      "updatedAt": "2026-08-31T17:07:30.685Z",
+      "updatedAt": "2026-09-01T14:31:22.022Z",
       "__v": 0
     },
     {
@@ -463,7 +778,7 @@
       ],
       "remarks": "Term 1 paid. Term 2 pending.",
       "createdAt": "2026-06-20T10:00:00.000Z",
-      "updatedAt": "2026-08-31T17:07:30.685Z",
+      "updatedAt": "2026-09-01T14:31:22.022Z",
       "__v": 0
     },
     {
@@ -511,7 +826,7 @@
       ],
       "remarks": "Full fee paid on time. Receipt generated.",
       "createdAt": "2026-06-15T09:00:00.000Z",
-      "updatedAt": "2026-08-31T17:07:30.685Z",
+      "updatedAt": "2026-09-01T14:31:22.022Z",
       "__v": 0
     },
     {
@@ -571,7 +886,7 @@
       ],
       "remarks": "First installment of Rs. 40,000 paid successfully. Remaining Rs. 25,000 due before Sept 15.",
       "createdAt": "2026-07-01T10:00:00.000Z",
-      "updatedAt": "2026-08-31T17:07:30.685Z",
+      "updatedAt": "2026-09-01T14:31:22.022Z",
       "__v": 0
     },
     {
@@ -619,7 +934,7 @@
       ],
       "remarks": "Payment pending for final year semester.",
       "createdAt": "2026-07-01T10:00:00.000Z",
-      "updatedAt": "2026-08-31T17:07:30.686Z",
+      "updatedAt": "2026-09-01T14:31:22.022Z",
       "__v": 0
     },
     {
@@ -674,7 +989,7 @@
       "studentRollNumber": "25CS850",
       "title": "Semester 1 Comprehensive Academic & Tuition Fee",
       "totalAmount": 65000,
-      "updatedAt": "2026-08-31T17:07:30.686Z"
+      "updatedAt": "2026-09-01T14:31:22.022Z"
     },
     {
       "_id": "fee_669552871a0deffe",
@@ -727,36 +1042,574 @@
       "studentRollNumber": "21CS042",
       "title": "Semester VI Tuition & Academic Fees (2025-2026)",
       "totalAmount": 68500,
-      "updatedAt": "2026-08-31T17:08:42.497Z"
+      "updatedAt": "2026-09-01T14:31:22.022Z"
+    },
+    {
+      "_id": "fee_645a841cc1813c24",
+      "__v": 0,
+      "academicYear": "2025-2026",
+      "breakdown": [
+        {
+          "id": "1",
+          "category": "Tuition Fee",
+          "amount": 45000,
+          "description": "Core Academic Tuition"
+        },
+        {
+          "id": "2",
+          "category": "Special Lab & Computing Fee",
+          "amount": 12000,
+          "description": "CSE High-Performance Lab Access"
+        },
+        {
+          "id": "3",
+          "category": "Semester Exam & Valuation Fee",
+          "amount": 3500,
+          "description": "University Examination Cell"
+        },
+        {
+          "id": "4",
+          "category": "Library & Digital Resources",
+          "amount": 4000,
+          "description": "IEEE / ACM digital library access"
+        },
+        {
+          "id": "5",
+          "category": "Student Welfare & Sports Fund",
+          "amount": 4000,
+          "description": "Campus activities & insurance"
+        }
+      ],
+      "course": "B.Tech - Computer Science & Engineering",
+      "createdAt": "2026-09-01T07:15:02.422Z",
+      "department": "Computer Science and Engineering",
+      "dueDate": "2026-10-01",
+      "feeType": "SEMESTER_FEE",
+      "lateFeePerDay": 50,
+      "paidAmount": 68500,
+      "pendingAmount": 0,
+      "semester": 6,
+      "status": "PAID",
+      "studentId": "std_59554b149c4028c4",
+      "studentName": "Student (23091A05K6@GMAIL.COM)",
+      "studentRollNumber": "23091A05K6@GMAIL.COM",
+      "title": "Semester VI Tuition & Academic Fees (2025-2026)",
+      "totalAmount": 68500,
+      "updatedAt": "2026-09-01T14:31:22.022Z"
+    },
+    {
+      "_id": "fee_49f13f20d71fc22e",
+      "__v": 0,
+      "academicYear": "2025-2026",
+      "breakdown": [
+        {
+          "id": "b_cb05dc68a6b6ca9a",
+          "category": "Academic Tuition Fee",
+          "amount": 42250,
+          "description": "Instructional & Faculty Charges"
+        },
+        {
+          "id": "b_3aabd284e83a95ea",
+          "category": "Laboratory & Tech Infrastructure",
+          "amount": 9750,
+          "description": "Computing, Lab & Internet Services"
+        },
+        {
+          "id": "b_3b284337aa011f07",
+          "category": "University Examination Fee",
+          "amount": 3500,
+          "description": "Evaluation & Semester Grade Report"
+        },
+        {
+          "id": "b_91464790f22a6605",
+          "category": "Library & Online Journals",
+          "amount": 2500,
+          "description": "Library, Research and Digital Resources"
+        },
+        {
+          "id": "b_3f3deacf966d80ff",
+          "category": "Student Amenities & Sports",
+          "amount": 7000,
+          "description": "Campus Facilities & Welfare"
+        }
+      ],
+      "course": "B.Tech - Computer Science & Engineering",
+      "createdAt": "2026-09-01T07:21:51.008Z",
+      "department": "Computer Science and Engineering",
+      "dueDate": "2026-10-01",
+      "feeType": "SEMESTER_FEE",
+      "lateFeePerDay": 50,
+      "paidAmount": 0,
+      "pendingAmount": 65000,
+      "remarks": "Automated initial fee assignment upon registration",
+      "semester": 1,
+      "status": "PENDING",
+      "studentId": "std_541f88d1198926a4",
+      "studentName": "Test Graduate Student",
+      "studentRollNumber": "25TS524",
+      "title": "Semester 1 Comprehensive Academic & Tuition Fee",
+      "totalAmount": 65000,
+      "updatedAt": "2026-09-01T14:31:22.023Z"
+    },
+    {
+      "_id": "fee_cd85458381767c4f",
+      "__v": 0,
+      "academicYear": "2025-2026",
+      "breakdown": [
+        {
+          "id": "1",
+          "category": "Tuition Fee",
+          "amount": 45000,
+          "description": "Core Academic Tuition"
+        },
+        {
+          "id": "2",
+          "category": "Special Lab & Computing Fee",
+          "amount": 12000,
+          "description": "CSE High-Performance Lab Access"
+        },
+        {
+          "id": "3",
+          "category": "Semester Exam & Valuation Fee",
+          "amount": 3500,
+          "description": "University Examination Cell"
+        },
+        {
+          "id": "4",
+          "category": "Library & Digital Resources",
+          "amount": 4000,
+          "description": "IEEE / ACM digital library access"
+        },
+        {
+          "id": "5",
+          "category": "Student Welfare & Sports Fund",
+          "amount": 4000,
+          "description": "Campus activities & insurance"
+        }
+      ],
+      "course": "B.Tech - Computer Science & Engineering",
+      "createdAt": "2026-09-01T07:21:53.564Z",
+      "department": "Computer Science and Engineering",
+      "dueDate": "2026-10-01",
+      "feeType": "SEMESTER_FEE",
+      "lateFeePerDay": 50,
+      "paidAmount": 0,
+      "pendingAmount": 68500,
+      "semester": 6,
+      "status": "PENDING",
+      "studentId": "std_0d71fe618e6f6206",
+      "studentName": "Student (NONEXISTENT_STUDENT_9999@COLLEGE.EDU)",
+      "studentRollNumber": "NONEXISTENT_STUDENT_9999@COLLEGE.EDU",
+      "title": "Semester VI Tuition & Academic Fees (2025-2026)",
+      "totalAmount": 68500,
+      "updatedAt": "2026-09-01T14:31:22.023Z"
+    },
+    {
+      "_id": "fee_80618ea36e906125",
+      "__v": 0,
+      "academicYear": "2025-2026",
+      "breakdown": [
+        {
+          "id": "b_b019149ca05e54b7",
+          "category": "Academic Tuition Fee",
+          "amount": 42250,
+          "description": "Instructional & Faculty Charges"
+        },
+        {
+          "id": "b_a4f7ed2a8372d662",
+          "category": "Laboratory & Tech Infrastructure",
+          "amount": 9750,
+          "description": "Computing, Lab & Internet Services"
+        },
+        {
+          "id": "b_5089fc1e7cdc8d12",
+          "category": "University Examination Fee",
+          "amount": 3500,
+          "description": "Evaluation & Semester Grade Report"
+        },
+        {
+          "id": "b_9e6be550a5779920",
+          "category": "Library & Online Journals",
+          "amount": 2500,
+          "description": "Library, Research and Digital Resources"
+        },
+        {
+          "id": "b_442a634ae2cba979",
+          "category": "Student Amenities & Sports",
+          "amount": 7000,
+          "description": "Campus Facilities & Welfare"
+        }
+      ],
+      "course": "B.Tech - Computer Science & Engineering",
+      "createdAt": "2026-09-01T07:22:04.980Z",
+      "department": "Computer Science and Engineering",
+      "dueDate": "2026-10-01",
+      "feeType": "SEMESTER_FEE",
+      "lateFeePerDay": 50,
+      "paidAmount": 0,
+      "pendingAmount": 65000,
+      "remarks": "Automated initial fee assignment upon registration",
+      "semester": 1,
+      "status": "PENDING",
+      "studentId": "std_66998c76617caca6",
+      "studentName": "Duplicate Person",
+      "studentRollNumber": "25TS999",
+      "title": "Semester 1 Comprehensive Academic & Tuition Fee",
+      "totalAmount": 65000,
+      "updatedAt": "2026-09-01T14:31:22.023Z"
+    },
+    {
+      "_id": "fee_fac59214a7476786",
+      "__v": 0,
+      "academicYear": "2025-2026",
+      "breakdown": [
+        {
+          "id": "b_e2aa66abde94d7a5",
+          "category": "Academic Tuition Fee",
+          "amount": 42250,
+          "description": "Instructional & Faculty Charges"
+        },
+        {
+          "id": "b_2a53c68ad6fefd1e",
+          "category": "Laboratory & Tech Infrastructure",
+          "amount": 9750,
+          "description": "Computing, Lab & Internet Services"
+        },
+        {
+          "id": "b_bbd8e3524b46a49c",
+          "category": "University Examination Fee",
+          "amount": 3500,
+          "description": "Evaluation & Semester Grade Report"
+        },
+        {
+          "id": "b_96529e14fc396e15",
+          "category": "Library & Online Journals",
+          "amount": 2500,
+          "description": "Library, Research and Digital Resources"
+        },
+        {
+          "id": "b_a9b887433b65dda3",
+          "category": "Student Amenities & Sports",
+          "amount": 7000,
+          "description": "Campus Facilities & Welfare"
+        }
+      ],
+      "course": "B.Tech - Computer Science & Engineering",
+      "createdAt": "2026-09-01T07:22:01.562Z",
+      "department": "Computer Science and Engineering",
+      "dueDate": "2026-10-01",
+      "feeType": "SEMESTER_FEE",
+      "lateFeePerDay": 50,
+      "paidAmount": 0,
+      "pendingAmount": 65000,
+      "remarks": "Automated initial fee assignment upon registration",
+      "semester": 1,
+      "status": "PENDING",
+      "studentId": "std_7614b4689bc00e87",
+      "studentName": "Test Graduate Student",
+      "studentRollNumber": "25TS712",
+      "title": "Semester 1 Comprehensive Academic & Tuition Fee",
+      "totalAmount": 65000,
+      "updatedAt": "2026-09-01T14:31:22.023Z"
+    },
+    {
+      "_id": "fee_c8fa2872ed292538",
+      "__v": 0,
+      "academicYear": "2025-2026",
+      "breakdown": [
+        {
+          "id": "b_77e534cae04f59e8",
+          "category": "Academic Tuition Fee",
+          "amount": 42250,
+          "description": "Instructional & Faculty Charges"
+        },
+        {
+          "id": "b_6544ca7d2a82a4cd",
+          "category": "Laboratory & Tech Infrastructure",
+          "amount": 9750,
+          "description": "Computing, Lab & Internet Services"
+        },
+        {
+          "id": "b_9b0123299d1b8f99",
+          "category": "University Examination Fee",
+          "amount": 3500,
+          "description": "Evaluation & Semester Grade Report"
+        },
+        {
+          "id": "b_bf1cef4dc6b44afa",
+          "category": "Library & Online Journals",
+          "amount": 2500,
+          "description": "Library, Research and Digital Resources"
+        },
+        {
+          "id": "b_a804103ef76c26f1",
+          "category": "Student Amenities & Sports",
+          "amount": 7000,
+          "description": "Campus Facilities & Welfare"
+        }
+      ],
+      "course": "B.Tech - Computer Science & Engineering",
+      "createdAt": "2026-09-01T07:23:25.237Z",
+      "department": "Computer Science and Engineering",
+      "dueDate": "2026-10-01",
+      "feeType": "SEMESTER_FEE",
+      "lateFeePerDay": 50,
+      "paidAmount": 0,
+      "pendingAmount": 65000,
+      "remarks": "Automated initial fee assignment upon registration",
+      "semester": 1,
+      "status": "PENDING",
+      "studentId": "std_afabf52ca9e1c029",
+      "studentName": "Test Graduate Student",
+      "studentRollNumber": "25TS428",
+      "title": "Semester 1 Comprehensive Academic & Tuition Fee",
+      "totalAmount": 65000,
+      "updatedAt": "2026-09-01T14:31:22.023Z"
+    },
+    {
+      "_id": "fee_7fcb6ce2fc1ceaf7",
+      "__v": 0,
+      "academicYear": "2025-2026",
+      "breakdown": [
+        {
+          "id": "b_2704243d8a158f70",
+          "category": "Academic Tuition Fee",
+          "amount": 42250,
+          "description": "Instructional & Faculty Charges"
+        },
+        {
+          "id": "b_98733d2b4281cdd9",
+          "category": "Laboratory & Tech Infrastructure",
+          "amount": 9750,
+          "description": "Computing, Lab & Internet Services"
+        },
+        {
+          "id": "b_2ddacfbfa5df8318",
+          "category": "University Examination Fee",
+          "amount": 3500,
+          "description": "Evaluation & Semester Grade Report"
+        },
+        {
+          "id": "b_7cf79ef16f916c86",
+          "category": "Library & Online Journals",
+          "amount": 2500,
+          "description": "Library, Research and Digital Resources"
+        },
+        {
+          "id": "b_d34d5dddd41ee48d",
+          "category": "Student Amenities & Sports",
+          "amount": 7000,
+          "description": "Campus Facilities & Welfare"
+        }
+      ],
+      "course": "B.Tech - Computer Science & Engineering",
+      "createdAt": "2026-09-01T07:34:55.465Z",
+      "department": "Computer Science and Engineering",
+      "dueDate": "2026-10-01",
+      "feeType": "SEMESTER_FEE",
+      "lateFeePerDay": 50,
+      "paidAmount": 0,
+      "pendingAmount": 65000,
+      "remarks": "Automated initial fee assignment upon registration",
+      "semester": 1,
+      "status": "PENDING",
+      "studentId": "std_a6c72900b0e632eb",
+      "studentName": "Rohit Verma",
+      "studentRollNumber": "25CS350",
+      "title": "Semester 1 Comprehensive Academic & Tuition Fee",
+      "totalAmount": 65000,
+      "updatedAt": "2026-09-01T14:31:22.023Z"
+    },
+    {
+      "_id": "fee_d81543d23b547f1d",
+      "__v": 0,
+      "academicYear": "2025-2026",
+      "breakdown": [
+        {
+          "id": "b_e23deeac6b4afb85",
+          "category": "Academic Tuition Fee",
+          "amount": 42250,
+          "description": "Instructional & Faculty Charges"
+        },
+        {
+          "id": "b_7e1f219855928e21",
+          "category": "Laboratory & Tech Infrastructure",
+          "amount": 9750,
+          "description": "Computing, Lab & Internet Services"
+        },
+        {
+          "id": "b_c244c730ff79a1b8",
+          "category": "University Examination Fee",
+          "amount": 3500,
+          "description": "Evaluation & Semester Grade Report"
+        },
+        {
+          "id": "b_a1ed25b7a225ed27",
+          "category": "Library & Online Journals",
+          "amount": 2500,
+          "description": "Library, Research and Digital Resources"
+        },
+        {
+          "id": "b_f4428c90bee71c9e",
+          "category": "Student Amenities & Sports",
+          "amount": 7000,
+          "description": "Campus Facilities & Welfare"
+        }
+      ],
+      "course": "B.Tech - Computer Science & Engineering",
+      "createdAt": "2026-09-01T07:38:11.680Z",
+      "department": "Computer Science and Engineering",
+      "dueDate": "2026-10-01",
+      "feeType": "SEMESTER_FEE",
+      "lateFeePerDay": 50,
+      "paidAmount": 0,
+      "pendingAmount": 65000,
+      "remarks": "Automated initial fee assignment upon registration",
+      "semester": 1,
+      "status": "PENDING",
+      "studentId": "std_137c04544563e940",
+      "studentName": "shahina",
+      "studentRollNumber": "23091A05K1",
+      "title": "Semester 1 Comprehensive Academic & Tuition Fee",
+      "totalAmount": 65000,
+      "updatedAt": "2026-09-01T14:31:22.023Z"
+    },
+    {
+      "_id": "fee_ff8035c89f5795e5",
+      "__v": 0,
+      "academicYear": "2025-2026",
+      "breakdown": [
+        {
+          "id": "b_885a48c386f6ea34",
+          "category": "Academic Tuition Fee",
+          "amount": 42250,
+          "description": "Instructional & Faculty Charges"
+        },
+        {
+          "id": "b_36bfab5462af0025",
+          "category": "Laboratory & Tech Infrastructure",
+          "amount": 9750,
+          "description": "Computing, Lab & Internet Services"
+        },
+        {
+          "id": "b_562a55b3c725576b",
+          "category": "University Examination Fee",
+          "amount": 3500,
+          "description": "Evaluation & Semester Grade Report"
+        },
+        {
+          "id": "b_ea4f567f826e989a",
+          "category": "Library & Online Journals",
+          "amount": 2500,
+          "description": "Library, Research and Digital Resources"
+        },
+        {
+          "id": "b_3b645428066fd877",
+          "category": "Student Amenities & Sports",
+          "amount": 7000,
+          "description": "Campus Facilities & Welfare"
+        }
+      ],
+      "course": "B.Tech - Computer Science & Engineering",
+      "createdAt": "2026-09-01T14:29:35.275Z",
+      "department": "Electronics & Communication",
+      "dueDate": "2026-10-01",
+      "feeType": "SEMESTER_FEE",
+      "lateFeePerDay": 50,
+      "paidAmount": 65,
+      "pendingAmount": 64935,
+      "remarks": "Automated initial fee assignment upon registration",
+      "semester": 5,
+      "status": "PARTIAL",
+      "studentId": "std_3ea4ed6881c8fe60",
+      "studentName": "madhu",
+      "studentRollNumber": "23091A05K0",
+      "title": "Semester 5 Comprehensive Academic & Tuition Fee",
+      "totalAmount": 65000,
+      "updatedAt": "2026-09-01T14:31:22.023Z"
+    },
+    {
+      "_id": "fee_9d0b86abd71fdd9a",
+      "studentId": "std_082428f55f18bbfa",
+      "studentRollNumber": "25CS363",
+      "studentName": "New Registered Student",
+      "department": "Computer Science and Engineering",
+      "course": "B.Tech - Computer Science & Engineering",
+      "academicYear": "2025-2026",
+      "semester": 1,
+      "feeType": "SEMESTER_FEE",
+      "title": "Semester 1 Comprehensive Academic & Tuition Fee",
+      "totalAmount": 65000,
+      "paidAmount": 0,
+      "pendingAmount": 65000,
+      "dueDate": "2026-10-01",
+      "lateFeePerDay": 50,
+      "status": "PENDING",
+      "breakdown": [
+        {
+          "id": "b_0e63eaaa399b6b78",
+          "category": "Academic Tuition Fee",
+          "amount": 42250,
+          "description": "Instructional & Faculty Charges"
+        },
+        {
+          "id": "b_72861b2ea31c8741",
+          "category": "Laboratory & Tech Infrastructure",
+          "amount": 9750,
+          "description": "Computing, Lab & Internet Services"
+        },
+        {
+          "id": "b_4125f5180143d882",
+          "category": "University Examination Fee",
+          "amount": 3500,
+          "description": "Evaluation & Semester Grade Report"
+        },
+        {
+          "id": "b_8280a2a9fdb2e8a8",
+          "category": "Library & Online Journals",
+          "amount": 2500,
+          "description": "Library, Research and Digital Resources"
+        },
+        {
+          "id": "b_3e84ad653f98df47",
+          "category": "Student Amenities & Sports",
+          "amount": 7000,
+          "description": "Campus Facilities & Welfare"
+        }
+      ],
+      "remarks": "Automated initial fee assignment upon registration",
+      "createdAt": "2026-09-01T14:32:03.064Z",
+      "updatedAt": "2026-09-01T14:32:03.064Z"
     }
   ],
   "payments": [
     {
-      "_id": "pay_9f24c2394b35cce0",
-      "paymentId": "pay_qa_ceeewbg0",
-      "orderId": "order_TWSCjYpoePJq3Z",
-      "signature": "240956a4c687ac7ccbef8f31b1b7807dbeaeef531e48029bd8785977e2a5c57e",
-      "feeId": "fee_669552871a0deffe",
-      "studentId": "std_cd529b84d44e82ec",
-      "studentName": "Student (21CS042)",
-      "rollNumber": "21CS042",
-      "department": "Computer Science and Engineering",
+      "_id": "pay_241851bccffb8a93",
+      "paymentId": "pay_TWo2rFqAOUZvVa",
+      "orderId": "order_TWo2O9kZ0uUzRN",
+      "signature": "669d9e1181f0eac20dda2001ec823d4be1a5a46c170e895ed114f6b369fa91df",
+      "feeId": "fee_ff8035c89f5795e5",
+      "studentId": "std_3ea4ed6881c8fe60",
+      "studentName": "madhu",
+      "rollNumber": "23091A05K0",
+      "department": "Electronics & Communication",
       "academicYear": "2025-2026",
-      "semester": 6,
-      "amount": 2500,
+      "semester": 5,
+      "amount": 65,
       "feeType": "SEMESTER_FEE",
-      "paymentMethod": "UPI",
+      "paymentMethod": "NET_BANKING",
       "status": "SUCCESS",
       "receiptNumber": "RCPT-2026-000015",
-      "transactionDate": "2026-08-31T17:08:42.497Z",
+      "transactionDate": "2026-09-01T14:31:01.235Z",
       "razorpayDetails": {
-        "razorpay_payment_id": "pay_qa_ceeewbg0",
-        "razorpay_order_id": "order_TWSCjYpoePJq3Z",
-        "razorpay_signature": "240956a4c687ac7ccbef8f31b1b7807dbeaeef531e48029bd8785977e2a5c57e"
+        "razorpay_payment_id": "pay_TWo2rFqAOUZvVa",
+        "razorpay_order_id": "order_TWo2O9kZ0uUzRN",
+        "razorpay_signature": "669d9e1181f0eac20dda2001ec823d4be1a5a46c170e895ed114f6b369fa91df",
+        "bank": "PUNB_R"
       },
-      "verifiedAt": "2026-08-31T17:08:42.497Z",
-      "notes": "Paid towards Semester VI Tuition & Academic Fees (2025-2026) via Razorpay Test Mode",
-      "createdAt": "2026-08-31T17:08:42.497Z"
+      "verifiedAt": "2026-09-01T14:31:01.235Z",
+      "notes": "Paid towards Semester 5 Comprehensive Academic & Tuition Fee via Razorpay Test Mode",
+      "createdAt": "2026-09-01T14:31:01.235Z"
     },
     {
       "_id": "pay_01",
@@ -784,7 +1637,7 @@
       "verifiedAt": "2026-07-15T14:30:05.000Z",
       "notes": "VIII Semester 1st Installment Fee Payment",
       "createdAt": "2026-07-15T14:30:00.000Z",
-      "updatedAt": "2026-08-31T17:07:30.686Z",
+      "updatedAt": "2026-09-01T14:31:22.023Z",
       "__v": 0
     },
     {
@@ -813,7 +1666,7 @@
       "verifiedAt": "2026-08-10T11:20:06.000Z",
       "notes": "VI Semester Full Fee Payment (Govt Quota)",
       "createdAt": "2026-08-10T11:20:00.000Z",
-      "updatedAt": "2026-08-31T17:07:30.686Z",
+      "updatedAt": "2026-09-01T14:31:22.023Z",
       "__v": 0
     },
     {
@@ -843,7 +1696,7 @@
       "verifiedAt": "2026-08-31T14:21:37.034Z",
       "notes": "Paid towards VIII Semester Comprehensive Academic Fee via Razorpay Test Mode",
       "createdAt": "2026-08-31T14:21:37.034Z",
-      "updatedAt": "2026-08-31T17:07:30.686Z",
+      "updatedAt": "2026-09-01T14:31:22.023Z",
       "__v": 0
     },
     {
@@ -873,7 +1726,7 @@
       "verifiedAt": "2026-08-31T14:40:12.972Z",
       "notes": "Paid towards VIII Semester Comprehensive Academic Fee via Razorpay Test Mode",
       "createdAt": "2026-08-31T14:40:12.972Z",
-      "updatedAt": "2026-08-31T17:07:30.686Z",
+      "updatedAt": "2026-09-01T14:31:22.023Z",
       "__v": 0
     },
     {
@@ -902,7 +1755,7 @@
       "verifiedAt": "2026-07-20T16:45:08.000Z",
       "notes": "Hostel Term 1 Fee Advance Payment",
       "createdAt": "2026-07-20T16:45:00.000Z",
-      "updatedAt": "2026-08-31T17:07:30.686Z",
+      "updatedAt": "2026-09-01T14:31:22.023Z",
       "__v": 0
     },
     {
@@ -932,7 +1785,7 @@
       "verifiedAt": "2026-08-31T14:16:36.911Z",
       "notes": "Paid towards VIII Semester Comprehensive Tuition & Lab Fee via Razorpay Test Mode",
       "createdAt": "2026-08-31T14:16:36.911Z",
-      "updatedAt": "2026-08-31T17:07:30.686Z",
+      "updatedAt": "2026-09-01T14:31:22.023Z",
       "__v": 0
     },
     {
@@ -962,7 +1815,7 @@
       "verifiedAt": "2026-08-31T15:58:04.600Z",
       "notes": "Paid towards VIII Semester Comprehensive Academic Fee via Razorpay Test Mode",
       "createdAt": "2026-08-31T15:58:04.600Z",
-      "updatedAt": "2026-08-31T17:07:30.686Z",
+      "updatedAt": "2026-09-01T14:31:22.023Z",
       "__v": 0
     },
     {
@@ -992,7 +1845,7 @@
       "verifiedAt": "2026-08-31T16:12:06.052Z",
       "notes": "Paid towards Semester 6 Comprehensive Academic & Tuition Fee via Razorpay Test Mode",
       "createdAt": "2026-08-31T16:12:06.052Z",
-      "updatedAt": "2026-08-31T17:07:30.686Z",
+      "updatedAt": "2026-09-01T14:31:22.023Z",
       "__v": 0
     },
     {
@@ -1014,7 +1867,7 @@
       "transactionDate": "2026-08-31T14:42:15.935Z",
       "failureReason": "Student closed Razorpay checkout popup",
       "createdAt": "2026-08-31T14:42:15.935Z",
-      "updatedAt": "2026-08-31T17:07:30.686Z",
+      "updatedAt": "2026-09-01T14:31:22.023Z",
       "__v": 0
     },
     {
@@ -1043,7 +1896,7 @@
       "verifiedAt": "2026-08-05T10:15:04.000Z",
       "notes": "Semester 4 Lab & Exam Fee Settlement",
       "createdAt": "2026-08-05T10:15:00.000Z",
-      "updatedAt": "2026-08-31T17:07:30.686Z",
+      "updatedAt": "2026-09-01T14:31:22.023Z",
       "__v": 0
     },
     {
@@ -1066,7 +1919,7 @@
       "failureReason": "Transaction declined by issuer bank (Insufficient funds/Timeout)",
       "notes": "Customer attempted netbanking payment which timed out at gateway",
       "createdAt": "2026-08-12T09:14:00.000Z",
-      "updatedAt": "2026-08-31T17:07:30.686Z",
+      "updatedAt": "2026-09-01T14:31:22.023Z",
       "__v": 0
     },
     {
@@ -1096,11 +1949,520 @@
       "studentId": "std_b84e436a1355d3a5",
       "studentName": "gfdsa",
       "transactionDate": "2026-08-31T17:03:33.798Z",
-      "updatedAt": "2026-08-31T17:07:30.686Z",
+      "updatedAt": "2026-09-01T14:31:22.023Z",
       "verifiedAt": "2026-08-31T17:03:33.798Z"
+    },
+    {
+      "_id": "pay_9f24c2394b35cce0",
+      "__v": 0,
+      "academicYear": "2025-2026",
+      "amount": 2500,
+      "createdAt": "2026-08-31T17:08:42.520Z",
+      "department": "Computer Science and Engineering",
+      "feeId": "fee_669552871a0deffe",
+      "feeType": "SEMESTER_FEE",
+      "notes": "Paid towards Semester VI Tuition & Academic Fees (2025-2026) via Razorpay Test Mode",
+      "orderId": "order_TWSCjYpoePJq3Z",
+      "paymentId": "pay_qa_ceeewbg0",
+      "paymentMethod": "UPI",
+      "razorpayDetails": {
+        "razorpay_payment_id": "pay_qa_ceeewbg0",
+        "razorpay_order_id": "order_TWSCjYpoePJq3Z",
+        "razorpay_signature": "240956a4c687ac7ccbef8f31b1b7807dbeaeef531e48029bd8785977e2a5c57e"
+      },
+      "receiptNumber": "RCPT-2026-000015",
+      "rollNumber": "21CS042",
+      "semester": 6,
+      "signature": "240956a4c687ac7ccbef8f31b1b7807dbeaeef531e48029bd8785977e2a5c57e",
+      "status": "SUCCESS",
+      "studentId": "std_cd529b84d44e82ec",
+      "studentName": "Student (21CS042)",
+      "transactionDate": "2026-08-31T17:08:42.497Z",
+      "updatedAt": "2026-09-01T14:31:22.024Z",
+      "verifiedAt": "2026-08-31T17:08:42.497Z"
     }
   ],
   "auditLogs": [
+    {
+      "_id": "log_02baa7ca42ba6fcb",
+      "action": "USER_LOGIN",
+      "performedBy": {
+        "userId": "user_std_07a5172bb613778a",
+        "name": "New Registered Student",
+        "email": "student.test.1788273122002@college.edu",
+        "role": "STUDENT"
+      },
+      "targetEntity": "User",
+      "targetId": "user_std_07a5172bb613778a",
+      "details": "STUDENT login successful for New Registered Student (student.test.1788273122002@college.edu)",
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-09-01T14:32:05.940Z"
+    },
+    {
+      "_id": "log_060811583d97142a",
+      "action": "USER_REGISTERED",
+      "performedBy": {
+        "userId": "user_std_07a5172bb613778a",
+        "name": "New Registered Student",
+        "email": "student.test.1788273122002@college.edu",
+        "role": "STUDENT"
+      },
+      "targetEntity": "Student",
+      "targetId": "user_std_07a5172bb613778a",
+      "details": "New STUDENT user New Registered Student registered with email student.test.1788273122002@college.edu",
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-09-01T14:32:04.520Z"
+    },
+    {
+      "_id": "log_72ca2d91327970fc",
+      "action": "USER_LOGIN",
+      "performedBy": {
+        "userId": "user_admin_01",
+        "name": "Dr. Ramesh Sharma (Dean Finance)",
+        "email": "admin@college.edu",
+        "role": "ADMIN"
+      },
+      "targetEntity": "User",
+      "targetId": "user_admin_01",
+      "details": "ADMIN login successful for Dr. Ramesh Sharma (Dean Finance) (admin@college.edu)",
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-09-01T14:32:01.996Z"
+    },
+    {
+      "_id": "log_95c7bc65f30e969d",
+      "action": "USER_LOGIN",
+      "performedBy": {
+        "userId": "user_std_01",
+        "name": "Sai Harini Medam",
+        "email": "saiharinimedam@gmail.com",
+        "role": "STUDENT"
+      },
+      "targetEntity": "User",
+      "targetId": "user_std_01",
+      "details": "STUDENT login successful for Sai Harini Medam (saiharinimedam@gmail.com)",
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-09-01T14:32:00.931Z"
+    },
+    {
+      "_id": "log_09ce9680f286cc7f",
+      "action": "USER_LOGIN",
+      "performedBy": {
+        "userId": "user_std_11da3cee786aa972",
+        "name": "shahina",
+        "email": "shahina@gmail.com",
+        "role": "STUDENT"
+      },
+      "targetEntity": "User",
+      "targetId": "user_std_11da3cee786aa972",
+      "details": "STUDENT login successful for shahina (shahina@gmail.com)",
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-09-01T14:31:59.680Z"
+    },
+    {
+      "_id": "log_bfdc4c0f61aa3434",
+      "action": "USER_LOGIN",
+      "performedBy": {
+        "userId": "user_std_11da3cee786aa972",
+        "name": "shahina",
+        "email": "shahina@gmail.com",
+        "role": "STUDENT"
+      },
+      "targetEntity": "User",
+      "targetId": "user_std_11da3cee786aa972",
+      "details": "STUDENT login successful for shahina (shahina@gmail.com)",
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-09-01T14:31:58.142Z"
+    },
+    {
+      "_id": "log_dfff1379eaa8702b",
+      "action": "USER_LOGIN",
+      "performedBy": {
+        "userId": "user_std_11da3cee786aa972",
+        "name": "shahina",
+        "email": "shahina@gmail.com",
+        "role": "STUDENT"
+      },
+      "targetEntity": "User",
+      "targetId": "user_std_11da3cee786aa972",
+      "details": "STUDENT login successful for shahina (shahina@gmail.com)",
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-09-01T14:31:54.587Z"
+    },
+    {
+      "_id": "log_36f07214016aeec5",
+      "action": "USER_LOGIN",
+      "performedBy": {
+        "userId": "user_admin_01",
+        "name": "Dr. Ramesh Sharma (Dean Finance)",
+        "email": "admin@college.edu",
+        "role": "ADMIN"
+      },
+      "targetEntity": "User",
+      "targetId": "user_admin_01",
+      "details": "ADMIN login successful for Dr. Ramesh Sharma (Dean Finance) (admin@college.edu)",
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-09-01T14:31:21.968Z"
+    },
+    {
+      "_id": "log_f30e561ab1d99db5",
+      "action": "USER_LOGIN",
+      "performedBy": {
+        "userId": "user_std_01",
+        "name": "Sai Harini Medam",
+        "email": "saiharinimedam@gmail.com",
+        "role": "STUDENT"
+      },
+      "targetEntity": "User",
+      "targetId": "user_std_01",
+      "details": "STUDENT login successful for Sai Harini Medam (saiharinimedam@gmail.com)",
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-09-01T14:31:19.632Z"
+    },
+    {
+      "_id": "log_d87b67c3cdb75280",
+      "action": "PAYMENT_VERIFIED_SUCCESS",
+      "performedBy": {
+        "userId": "user_std_fd586fb64bed73b4",
+        "name": "madhu",
+        "email": "madhu@gmail.com",
+        "role": "STUDENT"
+      },
+      "targetEntity": "PaymentRecord",
+      "targetId": "pay_241851bccffb8a93",
+      "details": "Razorpay Test Mode payment of ₹65 verified for madhu (23091A05K0). Receipt #RCPT-2026-000015 generated.",
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-09-01T14:31:01.248Z"
+    },
+    {
+      "_id": "log_4a816dba52f03416",
+      "action": "USER_REGISTERED",
+      "performedBy": {
+        "userId": "user_std_fd586fb64bed73b4",
+        "name": "madhu",
+        "email": "madhu@gmail.com",
+        "role": "STUDENT"
+      },
+      "targetEntity": "Student",
+      "targetId": "user_std_fd586fb64bed73b4",
+      "details": "New STUDENT user madhu registered with email madhu@gmail.com",
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-09-01T14:29:36.263Z"
+    },
+    {
+      "_id": "log_478346e96b2750c4",
+      "action": "USER_LOGIN",
+      "performedBy": {
+        "userId": "user_admin_01",
+        "name": "Dr. Ramesh Sharma (Dean Finance)",
+        "email": "admin@college.edu",
+        "role": "ADMIN"
+      },
+      "targetEntity": "User",
+      "targetId": "user_admin_01",
+      "details": "ADMIN login successful for Dr. Ramesh Sharma (Dean Finance) (admin@college.edu)",
+      "ipAddress": "223.228.98.38, 169.254.169.126",
+      "timestamp": "2026-09-01T14:25:23.921Z"
+    },
+    {
+      "_id": "log_33a9dcbb5202a398",
+      "action": "USER_LOGIN",
+      "performedBy": {
+        "userId": "user_std_03",
+        "name": "Priya Sundaram",
+        "email": "priya.s@student.college.edu",
+        "role": "STUDENT"
+      },
+      "targetEntity": "User",
+      "targetId": "user_std_03",
+      "details": "STUDENT login successful for Priya Sundaram (priya.s@student.college.edu)",
+      "ipAddress": "223.228.98.38, 169.254.169.126",
+      "timestamp": "2026-09-01T14:24:46.175Z"
+    },
+    {
+      "_id": "log_f74c409e8296dbaa",
+      "action": "USER_LOGIN",
+      "performedBy": {
+        "userId": "user_std_02",
+        "name": "Aarav Patel",
+        "email": "aarav.patel@student.college.edu",
+        "role": "STUDENT"
+      },
+      "targetEntity": "User",
+      "targetId": "user_std_02",
+      "details": "STUDENT login successful for Aarav Patel (aarav.patel@student.college.edu)",
+      "ipAddress": "223.228.98.38, 169.254.169.126",
+      "timestamp": "2026-09-01T14:24:32.332Z"
+    },
+    {
+      "_id": "log_cf72cf126c201d22",
+      "action": "USER_LOGIN",
+      "performedBy": {
+        "userId": "user_std_01",
+        "name": "Sai Harini Medam",
+        "email": "saiharinimedam@gmail.com",
+        "role": "STUDENT"
+      },
+      "targetEntity": "User",
+      "targetId": "user_std_01",
+      "details": "STUDENT login successful for Sai Harini Medam (saiharinimedam@gmail.com)",
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-09-01T07:35:02.616Z"
+    },
+    {
+      "_id": "log_779046f9016c3360",
+      "action": "USER_LOGIN",
+      "performedBy": {
+        "userId": "user_admin_01",
+        "name": "Dr. Ramesh Sharma (Dean Finance)",
+        "email": "admin@college.edu",
+        "role": "ADMIN"
+      },
+      "targetEntity": "User",
+      "targetId": "user_admin_01",
+      "details": "ADMIN login successful for Dr. Ramesh Sharma (Dean Finance) (admin@college.edu)",
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-09-01T07:35:01.222Z"
+    },
+    {
+      "_id": "log_afc3cb7fb1a96e58",
+      "action": "USER_LOGIN",
+      "performedBy": {
+        "userId": "user_std_104a393d26a32f8c",
+        "name": "Rohit Verma",
+        "email": "student.verification.1788248094813@college.edu",
+        "role": "STUDENT"
+      },
+      "targetEntity": "User",
+      "targetId": "user_std_104a393d26a32f8c",
+      "details": "STUDENT login successful for Rohit Verma (student.verification.1788248094813@college.edu)",
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-09-01T07:34:59.661Z"
+    },
+    {
+      "_id": "log_3eeb73a3e26a9d29",
+      "action": "USER_REGISTERED",
+      "performedBy": {
+        "userId": "user_std_104a393d26a32f8c",
+        "name": "Rohit Verma",
+        "email": "student.verification.1788248094813@college.edu",
+        "role": "STUDENT"
+      },
+      "targetEntity": "Student",
+      "targetId": "user_std_104a393d26a32f8c",
+      "details": "New STUDENT user Rohit Verma registered with email student.verification.1788248094813@college.edu",
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-09-01T07:34:57.459Z"
+    },
+    {
+      "_id": "log_a7c49443063e4a3e",
+      "action": "USER_LOGIN",
+      "performedBy": {
+        "userId": "user_std_01",
+        "name": "Sai Harini Medam",
+        "email": "saiharinimedam@gmail.com",
+        "role": "STUDENT"
+      },
+      "targetEntity": "User",
+      "targetId": "user_std_01",
+      "details": "STUDENT login successful for Sai Harini Medam (saiharinimedam@gmail.com)",
+      "ipAddress": "119.235.50.210, 169.254.169.126",
+      "timestamp": "2026-09-01T07:28:07.080Z"
+    },
+    {
+      "_id": "log_12ccccb7ef5e787f",
+      "action": "USER_LOGIN",
+      "performedBy": {
+        "userId": "user_std_01",
+        "name": "Sai Harini Medam",
+        "email": "saiharinimedam@gmail.com",
+        "role": "STUDENT"
+      },
+      "targetEntity": "User",
+      "targetId": "user_std_01",
+      "details": "STUDENT login successful for Sai Harini Medam (saiharinimedam@gmail.com)",
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-09-01T07:23:29.131Z"
+    },
+    {
+      "_id": "log_950e6fddd2b8200d",
+      "action": "USER_LOGIN",
+      "performedBy": {
+        "userId": "user_admin_01",
+        "name": "Dr. Ramesh Sharma (Dean Finance)",
+        "email": "admin@college.edu",
+        "role": "ADMIN"
+      },
+      "targetEntity": "User",
+      "targetId": "user_admin_01",
+      "details": "ADMIN login successful for Dr. Ramesh Sharma (Dean Finance) (admin@college.edu)",
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-09-01T07:23:29.005Z"
+    },
+    {
+      "_id": "log_8b3723aa3ebc4568",
+      "action": "USER_LOGIN",
+      "performedBy": {
+        "userId": "user_std_7c8a99abd28ec019",
+        "name": "Test Graduate Student",
+        "email": "test_user_1788247405003@example.edu",
+        "role": "STUDENT"
+      },
+      "targetEntity": "User",
+      "targetId": "user_std_7c8a99abd28ec019",
+      "details": "STUDENT login successful for Test Graduate Student (test_user_1788247405003@example.edu)",
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-09-01T07:23:28.753Z"
+    },
+    {
+      "_id": "log_ecd30eec02ebcc34",
+      "action": "USER_REGISTERED",
+      "performedBy": {
+        "userId": "user_std_7c8a99abd28ec019",
+        "name": "Test Graduate Student",
+        "email": "test_user_1788247405003@example.edu",
+        "role": "STUDENT"
+      },
+      "targetEntity": "Student",
+      "targetId": "user_std_7c8a99abd28ec019",
+      "details": "New STUDENT user Test Graduate Student registered with email test_user_1788247405003@example.edu",
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-09-01T07:23:25.221Z"
+    },
+    {
+      "_id": "log_82646d7148de2b80",
+      "action": "USER_LOGIN",
+      "performedBy": {
+        "userId": "user_std_01",
+        "name": "Sai Harini Medam",
+        "email": "saiharinimedam@gmail.com",
+        "role": "STUDENT"
+      },
+      "targetEntity": "User",
+      "targetId": "user_std_01",
+      "details": "STUDENT login successful for Sai Harini Medam (saiharinimedam@gmail.com)",
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-09-01T07:22:05.546Z"
+    },
+    {
+      "_id": "log_fe733c298f24f409",
+      "action": "USER_LOGIN",
+      "performedBy": {
+        "userId": "user_admin_01",
+        "name": "Dr. Ramesh Sharma (Dean Finance)",
+        "email": "admin@college.edu",
+        "role": "ADMIN"
+      },
+      "targetEntity": "User",
+      "targetId": "user_admin_01",
+      "details": "ADMIN login successful for Dr. Ramesh Sharma (Dean Finance) (admin@college.edu)",
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-09-01T07:22:05.418Z"
+    },
+    {
+      "_id": "log_3683a8e80ca95175",
+      "action": "USER_REGISTERED",
+      "performedBy": {
+        "userId": "user_std_a20e826a1b431327",
+        "name": "Duplicate Person",
+        "email": "test_user_1788247321316@example.edu",
+        "role": "STUDENT"
+      },
+      "targetEntity": "Student",
+      "targetId": "user_std_a20e826a1b431327",
+      "details": "New STUDENT user Duplicate Person registered with email test_user_1788247321316@example.edu",
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-09-01T07:22:04.975Z"
+    },
+    {
+      "_id": "log_203bc9b5e9748a42",
+      "action": "USER_REGISTERED",
+      "performedBy": {
+        "userId": "user_std_71cb7f0452766791",
+        "name": "Test Graduate Student",
+        "email": "test_user_1788247321316@example.edu",
+        "role": "STUDENT"
+      },
+      "targetEntity": "Student",
+      "targetId": "user_std_71cb7f0452766791",
+      "details": "New STUDENT user Test Graduate Student registered with email test_user_1788247321316@example.edu",
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-09-01T07:22:01.546Z"
+    },
+    {
+      "_id": "log_44464b4203635902",
+      "action": "USER_LOGIN",
+      "performedBy": {
+        "userId": "user_std_e07fbcf5ddda163d",
+        "name": "Student (NONEXISTENT_STUDENT_9999@COLLEGE.EDU)",
+        "email": "nonexistent_student_9999@college.edu",
+        "role": "STUDENT"
+      },
+      "targetEntity": "User",
+      "targetId": "user_std_e07fbcf5ddda163d",
+      "details": "STUDENT login successful for Student (NONEXISTENT_STUDENT_9999@COLLEGE.EDU)",
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-09-01T07:21:53.560Z"
+    },
+    {
+      "_id": "log_9c2ac5d074dfa3d4",
+      "action": "USER_LOGIN",
+      "performedBy": {
+        "userId": "user_std_eca556a6bb6cd797",
+        "name": "Test Graduate Student",
+        "email": "test_user_1788247310806@example.edu",
+        "role": "STUDENT"
+      },
+      "targetEntity": "User",
+      "targetId": "user_std_eca556a6bb6cd797",
+      "details": "STUDENT login successful for Test Graduate Student",
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-09-01T07:21:53.227Z"
+    },
+    {
+      "_id": "log_c551f359fe547139",
+      "action": "STUDENT_REGISTERED",
+      "performedBy": {
+        "userId": "user_std_eca556a6bb6cd797",
+        "name": "Test Graduate Student",
+        "email": "test_user_1788247310806@example.edu",
+        "role": "STUDENT"
+      },
+      "targetEntity": "Student",
+      "targetId": "std_541f88d1198926a4",
+      "details": "New student Test Graduate Student (25TS524) registered in Computer Science and Engineering",
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-09-01T07:21:51.003Z"
+    },
+    {
+      "_id": "log_477c8e8dadeb5dca",
+      "action": "PAYMENT_VERIFIED_SUCCESS",
+      "performedBy": {
+        "userId": "user_std_813cc49027e59d0f",
+        "name": "Student (23091A05K6@GMAIL.COM)",
+        "email": "23091a05k6@gmail.com",
+        "role": "STUDENT"
+      },
+      "targetEntity": "PaymentRecord",
+      "targetId": "pay_992aeae66c439b3c",
+      "details": "Razorpay Test Mode payment of ₹68,500 verified for Student (23091A05K6@GMAIL.COM) (23091A05K6@GMAIL.COM). Receipt #RCPT-2026-000015 generated.",
+      "ipAddress": "127.0.0.1",
+      "timestamp": "2026-09-01T07:16:02.161Z"
+    },
+    {
+      "_id": "log_b4b46c89ffb44d56",
+      "action": "USER_LOGIN",
+      "performedBy": {
+        "userId": "user_std_813cc49027e59d0f",
+        "name": "Student (23091A05K6@GMAIL.COM)",
+        "email": "23091a05k6@gmail.com",
+        "role": "STUDENT"
+      },
+      "targetEntity": "User",
+      "targetId": "user_std_813cc49027e59d0f",
+      "details": "STUDENT login successful for Student (23091A05K6@GMAIL.COM)",
+      "ipAddress": "119.235.50.210, 169.254.169.126",
+      "timestamp": "2026-09-01T07:15:02.411Z"
+    },
     {
       "_id": "log_7896f5c59c711039",
       "action": "PAYMENT_VERIFIED_SUCCESS",
