@@ -36,7 +36,79 @@ export const DigitalReceiptModal: React.FC<DigitalReceiptModalProps> = ({
   if (!isOpen || !receipt) return null;
 
   const handlePrint = () => {
-    window.print();
+    try {
+      const printElement = document.getElementById('printable-receipt-card');
+      if (printElement) {
+        // Create an isolated hidden iframe for printing just the receipt card
+        const iframe = document.createElement('iframe');
+        iframe.style.position = 'fixed';
+        iframe.style.right = '0';
+        iframe.style.bottom = '0';
+        iframe.style.width = '0';
+        iframe.style.height = '0';
+        iframe.style.border = '0';
+        document.body.appendChild(iframe);
+
+        const doc = iframe.contentWindow?.document;
+        if (doc) {
+          doc.open();
+          doc.write(`
+            <!DOCTYPE html>
+            <html>
+              <head>
+                <title>Receipt_${receipt.receiptNumber}</title>
+                <style>
+                  body {
+                    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+                    margin: 0;
+                    padding: 24px;
+                    color: #0f172a;
+                    background: #ffffff;
+                    -webkit-print-color-adjust: exact;
+                    print-color-adjust: exact;
+                  }
+                  * { box-sizing: border-box; }
+                  table { width: 100%; border-collapse: collapse; }
+                  @page {
+                    size: auto;
+                    margin: 10mm;
+                  }
+                  @media print {
+                    body { padding: 0; }
+                  }
+                </style>
+              </head>
+              <body>
+                ${printElement.innerHTML}
+              </body>
+            </html>
+          `);
+          doc.close();
+
+          setTimeout(() => {
+            try {
+              iframe.contentWindow?.focus();
+              iframe.contentWindow?.print();
+            } catch (printErr) {
+              console.warn('Iframe print failed, falling back to window.print():', printErr);
+              window.print();
+            } finally {
+              setTimeout(() => {
+                if (document.body.contains(iframe)) {
+                  document.body.removeChild(iframe);
+                }
+              }, 2000);
+            }
+          }, 350);
+          return;
+        }
+      }
+      // Fallback
+      window.print();
+    } catch (err) {
+      console.warn('Print command encountered an error; falling back to PDF download:', err);
+      handleDownloadPdf();
+    }
   };
 
   const handleDownloadPdf = async () => {
